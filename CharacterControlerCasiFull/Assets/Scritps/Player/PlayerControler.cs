@@ -16,7 +16,7 @@ public class PlayerControler : MonoBehaviour {
     public float _wallSlideSpeedMax = 3;
     public float _wallStickTime = .25f;
 
-    [Header ("Walljump Variables")]
+    [Header("Walljump Variables")]
     public Vector2 _wallJumpClimb;
     public Vector2 _wallJumpOff;
     public Vector2 _wallJumpLeap;
@@ -32,16 +32,23 @@ public class PlayerControler : MonoBehaviour {
     private bool isPushed = false;
     private int pushDirection;
     private float pushForce;
-    
+    private CVirtualJoystick _myVirtualJoystick;
+
+    private void Awake()
+    {
+        _myVirtualJoystick = new CVirtualJoystick();
+    }
 
     void Start()
-    { 
-         _controller = GetComponent<CharacterControler2D>();
+    {
+        _controller = GetComponent<CharacterControler2D>();
         _gravity = -(2 * _jumpHeight) / Mathf.Pow(_timeToJumpApex, 2);
         _jumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
-	}
+        _myVirtualJoystick.init();
 
-    
+    }
+
+
 
     void Update()
     {
@@ -58,12 +65,11 @@ public class PlayerControler : MonoBehaviour {
         push();
         _velocity.y += _gravity * Time.deltaTime;
         _controller.Move(_velocity * Time.deltaTime);
-	}
+    }
 
     private void catchInput()
     {
-
-        _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _input = _myVirtualJoystick.GetLeftStickClamped();
     }
 
     private void smoothSpeed()
@@ -103,7 +109,7 @@ public class PlayerControler : MonoBehaviour {
     private void jump()
     {
         int wallDirx = (_controller._collisionInfo.left) ? -1 : 1;
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (_myVirtualJoystick.GetAction1Down())
         {
             if (_wallSliding)
             {
@@ -137,7 +143,7 @@ public class PlayerControler : MonoBehaviour {
         }
     }
 
-    public void startPush(int direction,float aForce)
+    public void startPush(int direction, float aForce)
     {
         isPushed = true;
         pushDirection = direction;
@@ -150,13 +156,18 @@ public class PlayerControler : MonoBehaviour {
         {
             _velocity.x = pushDirection * pushForce;
             isPushed = false;
-        }       
-        
-        
+        }
+
+
     }
 
     public int getFacingDirection()
     {
         return _controller._collisionInfo.faceDir;
+    }
+
+    public CVirtualJoystick getVirtualJoystick()
+    {
+        return _myVirtualJoystick;
     }
 }

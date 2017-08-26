@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour {
 
     public float _moveSpeed;
+    public bool _scrolling;
 
     private Vector2 _moveVector;
 
@@ -20,7 +21,10 @@ public class CameraManager : MonoBehaviour {
 
     private void move()
     {
-        _moveVector.y = _moveSpeed;
-        transform.Translate(_moveVector);   
+        if (_scrolling)
+        {
+            _moveVector.y = _moveSpeed;
+            transform.Translate(_moveVector);
+        }
     }
 }

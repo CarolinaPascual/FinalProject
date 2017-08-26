@@ -8,11 +8,14 @@ public class PushControl : MonoBehaviour {
     Collider2D _collider;
     float pushCounter;
     PlayerControler _controller;
+    private CVirtualJoystick _myVirtualJoystick;
 	void Start () {
         pushCounter = pushCD;
         _collider = GetComponent<Collider2D>();
         _controller = GetComponent<PlayerControler>();
-	}
+        _myVirtualJoystick = _controller.getVirtualJoystick();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -37,7 +40,7 @@ public class PushControl : MonoBehaviour {
             _collider.enabled = true;
             if (rayHit.collider !=null)                
             {
-                Debug.Log(rayHit.transform.gameObject.name);
+                //Debug.Log(rayHit.transform.gameObject.name);
                 if (rayHit.transform.gameObject.tag == "Player")
                 {
                     rayHit.transform.gameObject.GetComponent<PlayerControler>().startPush(_controller.getFacingDirection(),pushForce);
@@ -54,7 +57,7 @@ public class PushControl : MonoBehaviour {
     {
         if (pushCounter >= pushCD)
         {
-            if (Input.GetKeyDown(KeyCode.LeftControl))
+            if (_myVirtualJoystick.GetLeftTriggerDown())
             {
                 pushCounter = 0;
                 return true;    

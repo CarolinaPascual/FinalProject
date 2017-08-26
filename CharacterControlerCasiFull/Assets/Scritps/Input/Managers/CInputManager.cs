@@ -81,6 +81,30 @@ public class CInputManager : MonoBehaviour {
         return null;
     }
 
+    private InputDevice GetKeyboardDevice()
+    {
+        for (int i = 0; i < _activeDevices.Count; i++)
+        {
+            if (_activeDevices[i].Name == "Keyboard device")
+            {
+                return _activeDevices[i];
+            }
+        }
+        return null;
+    }
+
+    private InputDevice GetJoystickDevice()
+    {
+        for (int i = 0; i < _activeDevices.Count; i++)
+        {
+            if (_activeDevices[i].Name != "Keyboard device")
+            {
+                return _activeDevices[i];
+            }
+        }
+        return null;
+    }
+
     private void init()
     {
         if (_inst != null && _inst != this)
