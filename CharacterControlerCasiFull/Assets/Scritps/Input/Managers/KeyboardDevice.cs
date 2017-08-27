@@ -85,11 +85,17 @@ public class KeyboardDevice : InputDevice
 		UpdateWithState( InputControlType.Action3, Input.GetKey(_bindings.action3Binding), updateTick, deltaTime );
 		UpdateWithState( InputControlType.Action4, Input.GetKey(_bindings.action4Binding), updateTick, deltaTime );
 
-		// Commit the current state of all controls.
-		// This may only be done once per update tick. Updates submissions (like those above)
-		// can be done multiple times per tick (for example, to aggregate multiple sources) 
-		// but must be followed by a single commit to submit the final value to the control.
-		Commit( updateTick, deltaTime );
+        UpdateWithState(InputControlType.LeftTrigger, Input.GetKey(_bindings.leftTrigger), updateTick, deltaTime);
+        UpdateWithState(InputControlType.LeftBumper, Input.GetKey(_bindings.leftBumper), updateTick, deltaTime);
+        UpdateWithState(InputControlType.RightTrigger, Input.GetKey(_bindings.rightTrigger), updateTick, deltaTime);
+        UpdateWithState(InputControlType.RightBumper, Input.GetKey(_bindings.rightBumper), updateTick, deltaTime);
+
+
+        // Commit the current state of all controls.
+        // This may only be done once per update tick. Updates submissions (like those above)
+        // can be done multiple times per tick (for example, to aggregate multiple sources) 
+        // but must be followed by a single commit to submit the final value to the control.
+        Commit( updateTick, deltaTime );
 	}
 
 
