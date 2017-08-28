@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scritps\Raycasting\RaycastControler.cs" />
     <Compile Include="Assets\Scritps\Shooting\BaseWeapon.cs" />
     <Compile Include="Assets\Scritps\Shooting\GenericWeapon.cs" />
+    <Compile Include="Assets\Scritps\Shooting\PushControl.cs" />
     <Compile Include="Assets\Scritps\Shooting\ShootingController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

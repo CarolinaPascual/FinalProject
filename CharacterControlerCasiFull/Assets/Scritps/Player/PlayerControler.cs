@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,6 +29,10 @@ public class PlayerControler : MonoBehaviour {
     private Vector3 _velocity;
     private Vector2 _input;
     private CharacterControler2D _controller;
+    private bool isPushed = false;
+    private int pushDirection;
+    private float pushForce;
+    
 
     void Start()
     { 
@@ -36,7 +41,8 @@ public class PlayerControler : MonoBehaviour {
         _jumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
 	}
 
-   
+    
+
     void Update()
     {
         catchInput();
@@ -49,6 +55,7 @@ public class PlayerControler : MonoBehaviour {
         }
 
         jump();
+        push();
         _velocity.y += _gravity * Time.deltaTime;
         _controller.Move(_velocity * Time.deltaTime);
 	}
@@ -128,5 +135,28 @@ public class PlayerControler : MonoBehaviour {
                 }
             }
         }
+    }
+
+    public void startPush(int direction,float aForce)
+    {
+        isPushed = true;
+        pushDirection = direction;
+        pushForce = aForce;
+    }
+
+    void push()
+    {
+        if (isPushed)
+        {
+            _velocity.x = pushDirection * pushForce;
+            isPushed = false;
+        }       
+        
+        
+    }
+
+    public int getFacingDirection()
+    {
+        return _controller._collisionInfo.faceDir;
     }
 }
