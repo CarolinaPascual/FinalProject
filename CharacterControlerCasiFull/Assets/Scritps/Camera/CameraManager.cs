@@ -23,7 +23,7 @@ public class CameraManager : MonoBehaviour {
     {
         if (_scrolling)
         {
-            _moveVector.y = _moveSpeed;
+            _moveVector.y = _moveSpeed/100;
             transform.Translate(_moveVector);
         }
     }

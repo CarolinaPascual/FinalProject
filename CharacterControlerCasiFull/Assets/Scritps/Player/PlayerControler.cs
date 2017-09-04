@@ -12,9 +12,14 @@ public class PlayerControler : MonoBehaviour {
     public float _timeToJumpApex = .4f;
     public float _accelerationTimeAirborned = .2f;
     public float _accelerationTimeGrounded = .1f;
+
     [Header("Wallslide Variables")]
     public float _wallSlideSpeedMax = 3;
     public float _wallStickTime = .25f;
+
+    [Header("Dash Variables")]
+    public float _dashForce = 1;
+    public float _dashCooldown = 1;
 
     [Header("Walljump Variables")]
     public Vector2 _wallJumpClimb;
@@ -22,6 +27,8 @@ public class PlayerControler : MonoBehaviour {
     public Vector2 _wallJumpLeap;
 
     private bool _wallSliding = false;
+    private bool _dashed = false;
+    private float _dashCooldownCount;
     private float _gravity;
     private float _jumpVelocity;
     private float _timeToWallUnstick;
@@ -63,6 +70,7 @@ public class PlayerControler : MonoBehaviour {
 
         jump();
         push();
+        dash();
         _velocity.y += _gravity * Time.deltaTime;
         _controller.Move(_velocity * Time.deltaTime);
     }
@@ -102,6 +110,24 @@ public class PlayerControler : MonoBehaviour {
             else
             {
                 _timeToWallUnstick = _wallStickTime;
+            }
+        }
+    }
+
+    private void dash()
+    {
+        if (_myVirtualJoystick.GetAction3Down() && !_dashed)
+        {
+            _velocity.x = _dashForce * _input.x;
+            _dashed = true;
+        }
+        if (_dashed)
+        {
+            _dashCooldownCount += Time.deltaTime;
+            if (_dashCooldownCount >= _dashCooldown)
+            {
+                _dashCooldownCount = 0;
+                _dashed = false;
             }
         }
     }
