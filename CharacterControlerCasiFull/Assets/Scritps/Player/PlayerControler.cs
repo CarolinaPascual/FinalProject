@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterControler2D))]
 public class PlayerControler : MonoBehaviour {
 
+    #region Publics
     [Header("Movement Variables")]
     public float _moveSpeed = 6;
     public float _jumpHeight = 4;
@@ -26,6 +27,22 @@ public class PlayerControler : MonoBehaviour {
     public Vector2 _wallJumpOff;
     public Vector2 _wallJumpLeap;
 
+    [Header("States Variables")]
+    public int _numberOfIFrames;
+    #endregion
+
+    #region States
+    private int _CurrentState;
+    [HideInInspector]
+    public int State_Normal = 0;
+    [HideInInspector]
+    public int State_Stuned = 1;
+    private float _currentStateTime = 0;
+    private float _currentStateFrames = 0;
+    private float _stunedTime;
+    #endregion 
+
+    #region Privates
     private bool _wallSliding = false;
     private bool _dashed = false;
     private float _dashCooldownCount;
@@ -40,6 +57,9 @@ public class PlayerControler : MonoBehaviour {
     private int pushDirection;
     private float pushForce;
     private CVirtualJoystick _myVirtualJoystick;
+    #endregion
+
+    #region MonoBehaviour Methods
 
     private void Awake()
     {
@@ -52,39 +72,22 @@ public class PlayerControler : MonoBehaviour {
         _gravity = -(2 * _jumpHeight) / Mathf.Pow(_timeToJumpApex, 2);
         _jumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
         _myVirtualJoystick.init();
-
+        setState(State_Normal);
     }
-
-
 
     void Update()
     {
-        catchInput();
-        smoothSpeed();
-        wallSlide();
-
+        stateNormal();
+        stateStuned();
         if (_controller._collisionInfo.above || _controller._collisionInfo.below)
         {
             _velocity.y = 0;
         }
-
-        jump();
-        push();
-        dash();
-        _velocity.y += _gravity * Time.deltaTime;
-        _controller.Move(_velocity * Time.deltaTime);
     }
 
-    private void catchInput()
-    {
-        _input = _myVirtualJoystick.GetLeftStickClamped();
-    }
+    #endregion
 
-    private void smoothSpeed()
-    {
-        float targetVelocityX = _input.x * _moveSpeed;
-        _velocity.x = Mathf.SmoothDamp(_velocity.x, targetVelocityX, ref _velocityXDamper, (_controller._collisionInfo.below) ? _accelerationTimeGrounded : _accelerationTimeAirborned);
-    }
+    #region Movement
 
     private void wallSlide()
     {
@@ -118,8 +121,19 @@ public class PlayerControler : MonoBehaviour {
     {
         if (_myVirtualJoystick.GetAction3Down() && !_dashed)
         {
-            _velocity.x = _dashForce * _input.x;
-            _dashed = true;
+            if (_input.x == 0)
+            {
+                _velocity.x = _dashForce * _controller._collisionInfo.faceDir;
+                _dashed = true;
+                return;
+            }
+            else
+            {
+                _velocity.x = _dashForce * _input.x;
+                _dashed = true;
+                return;
+            }
+
         }
         if (_dashed)
         {
@@ -169,6 +183,93 @@ public class PlayerControler : MonoBehaviour {
         }
     }
 
+    private void movement()
+    {
+        float targetVelocityX = _input.x * _moveSpeed;
+        _velocity.x = Mathf.SmoothDamp(_velocity.x, targetVelocityX, ref _velocityXDamper, (_controller._collisionInfo.below) ? _accelerationTimeGrounded : _accelerationTimeAirborned);
+    }
+
+    #endregion
+
+    #region States
+
+    public void setState(int aState, float aTimeInState = 0)
+    {
+        if (aState == State_Stuned)
+        {
+            if (_CurrentState != State_Stuned)
+            {
+                _stunedTime = aTimeInState;
+                _CurrentState = aState;
+                _currentStateTime = 0;
+                _currentStateFrames = 0;
+            }
+        }
+        if (aState == State_Normal)
+        {
+            _CurrentState = aState;
+            _currentStateTime = 0;
+            _currentStateFrames = 0;
+        }
+    }
+
+    public int getState()
+    {
+        return _CurrentState;
+    }
+
+    public float getCurrentStateTime(bool inFrames)
+    {
+        if (inFrames)
+        {
+            return _currentStateFrames;
+        }
+        else if (!inFrames)
+        {
+            return _currentStateTime;
+        }
+        return 0;
+    }
+
+    private void stateNormal()
+    {
+        if (getState() == State_Normal)
+        {
+            catchInput();
+            movement();
+            jump();
+            wallSlide();
+            push();
+            dash();
+            _velocity.y += _gravity * Time.deltaTime;
+            _controller.Move(_velocity * Time.deltaTime);
+            _currentStateFrames += 1;
+            _currentStateTime += Time.deltaTime;
+        }
+    }
+
+    private void stateStuned()
+    {
+        if (getState() == State_Stuned)
+        {
+            movement();
+            push();
+            _velocity.y += _gravity * Time.deltaTime;
+            _controller.Move(_velocity * Time.deltaTime);
+            _currentStateFrames += 1;
+            _currentStateTime += Time.deltaTime;
+            if (_currentStateTime >= _stunedTime)
+            {
+                setState(State_Normal);
+                _stunedTime = 0;
+            }
+        }
+    }
+
+    #endregion
+
+    #region Push
+
     public void startPush(int direction, float aForce)
     {
         isPushed = true;
@@ -183,8 +284,15 @@ public class PlayerControler : MonoBehaviour {
             _velocity.x = pushDirection * pushForce;
             isPushed = false;
         }
+    }
 
+    #endregion
 
+    #region Misc
+
+    private void catchInput()
+    {
+        _input = _myVirtualJoystick.GetLeftStickClamped();
     }
 
     public int getFacingDirection()
@@ -196,4 +304,16 @@ public class PlayerControler : MonoBehaviour {
     {
         return _myVirtualJoystick;
     }
+
+    public Vector2 getVelocityVector()
+    {
+        return _velocity;
+    }
+    
+    public CharacterControler2D getCharacterControler()
+    {
+        return _controller;
+    }
+
+    #endregion
 }

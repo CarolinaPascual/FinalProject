@@ -21,7 +21,7 @@ public class BaseWeapon : GenericWeapon {
        if(timeSinceLastShoot >= shootCD)
        {
             GameObject auxBullet = Instantiate(bullet, transform.position, Quaternion.identity);
-            auxBullet.GetComponent<Rigidbody>().velocity = direction * bulletSpeed;
+            auxBullet.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
             //Physics.IgnoreCollision(auxBullet.GetComponentInChildren<Collider>(), GetComponentInParent<Collider>());
             timeSinceLastShoot = 0;
        }

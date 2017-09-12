@@ -6,31 +6,37 @@ public class ShootingController : MonoBehaviour {
 
     public GameObject equipedWeapon;
     private GenericWeapon weaponScript;
-    int facingDirection;
-	void Start () {
-
+    private int facingDirection;
+    private PlayerControler _controler;
+    private CVirtualJoystick _virtualJoystick;
+    private Vector2 input;
+	void Start ()
+    {
+        _controler = GetComponent<PlayerControler>();
+        _virtualJoystick = _controler.getVirtualJoystick();
         facingDirection = 1;
         equipWeapon(equipedWeapon);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        
-        if (Input.GetKeyDown(KeyCode.A))
-            facingDirection = -1;
-        if (Input.GetKeyDown(KeyCode.D))
-            facingDirection = 1;
 
-        if(Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKey(KeyCode.LeftControl))
+        
+        input = _virtualJoystick.GetLeftStickClamped();
+
+        if (input.x != 0)
         {
-            Vector2 _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-           
-            if (_input == Vector2.zero)
+            facingDirection = (int)input.x;
+        }
+
+        if(_virtualJoystick.GetRightTriggerDown() || _virtualJoystick.GetRightTriggerPressed())
+        {
+            if (input == Vector2.zero)
             {
-                _input = new Vector2(facingDirection, 0);
+                input = new Vector2(facingDirection, 0);
             }
             
-            weaponScript.fire(_input);
+            weaponScript.fire(input);
         }
 	}
 
