@@ -45,17 +45,20 @@ public class PlayerControler : MonoBehaviour {
     #region Privates
     private bool _wallSliding = false;
     private bool _dashed = false;
+    private bool _isPushed = false;
+    private bool _isPulled = false;
+    private int _pushDirection;
     private float _dashCooldownCount;
+    private float _pushForce;
+    private float _pullForce;
     private float _gravity;
     private float _jumpVelocity;
     private float _timeToWallUnstick;
     private float _velocityXDamper;
     private Vector3 _velocity;
     private Vector2 _input;
+    private Vector2 _pullDirection;
     private CharacterControler2D _controller;
-    private bool isPushed = false;
-    private int pushDirection;
-    private float pushForce;
     private CVirtualJoystick _myVirtualJoystick;
     #endregion
 
@@ -203,6 +206,8 @@ public class PlayerControler : MonoBehaviour {
                 _CurrentState = aState;
                 _currentStateTime = 0;
                 _currentStateFrames = 0;
+                _input.x = 0;
+                _velocity.x = 0;
             }
         }
         if (aState == State_Normal)
@@ -240,6 +245,7 @@ public class PlayerControler : MonoBehaviour {
             jump();
             wallSlide();
             push();
+            pull();
             dash();
             _velocity.y += _gravity * Time.deltaTime;
             _controller.Move(_velocity * Time.deltaTime);
@@ -254,6 +260,7 @@ public class PlayerControler : MonoBehaviour {
         {
             movement();
             push();
+            pull();
             _velocity.y += _gravity * Time.deltaTime;
             _controller.Move(_velocity * Time.deltaTime);
             _currentStateFrames += 1;
@@ -268,21 +275,58 @@ public class PlayerControler : MonoBehaviour {
 
     #endregion
 
-    #region Push
+    #region Push & Pull
 
     public void startPush(int direction, float aForce)
     {
-        isPushed = true;
-        pushDirection = direction;
-        pushForce = aForce;
+        _isPushed = true;
+        _pushDirection = direction;
+        _pushForce = aForce;
     }
 
     void push()
     {
-        if (isPushed)
+        if (_isPushed)
         {
-            _velocity.x = pushDirection * pushForce;
-            isPushed = false;
+            _velocity.x = _pushDirection * _pushForce;
+            _isPushed = false;
+        }
+    }
+
+    public void startPull(Vector2 direction, float aForce)
+    {
+        _isPulled = true;
+        _pullDirection = direction;
+        _pullForce = aForce;
+    }
+
+    public void stopPull()
+    {
+        _isPulled = false;
+    }
+
+    void pull()
+    {
+        if (_isPulled)
+        {
+            
+            _velocity = _pullDirection * _pullForce;
+            /*
+            if (_pullDirection.x != 0)
+            {
+                if (_controller._collisionInfo.left || _controller._collisionInfo.right)
+                {
+                    _isPulled = false;
+                }
+            }
+            if (Mathf.Abs(_pullDirection.y) == 1)
+            {
+                if (_controller._collisionInfo.below || _controller._collisionInfo.above)
+                {
+                    _isPulled = false;
+                }
+            }
+            */
         }
     }
 
@@ -313,6 +357,11 @@ public class PlayerControler : MonoBehaviour {
     public CharacterControler2D getCharacterControler()
     {
         return _controller;
+    }
+
+    public bool isWallSlideing()
+    {
+        return _wallSliding;
     }
 
     #endregion

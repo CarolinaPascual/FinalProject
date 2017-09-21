@@ -5,18 +5,22 @@ using UnityEngine;
 public abstract class GenericWeapon : MonoBehaviour {
 
     public GameObject bullet;
+    [HideInInspector]
+    public PlayerControler _owner;
     public float shootCD;
     public float duration;
     protected float timeSinceLastShoot;
     public float bulletSpeed;
 
-	void Start () {
+	void Start ()
+    {
 		
 	}
-	
-	void Update () {
-		
-	}
+
+    void Update()
+    {
+        
+    }
 
     public abstract void fire(Vector2 direction);
 

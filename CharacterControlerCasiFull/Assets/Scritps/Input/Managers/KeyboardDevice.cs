@@ -187,8 +187,8 @@ public class KeyboardDevice : InputDevice
             rightBinding = KeyCode.D;
 
             action1Binding = KeyCode.Space;
-            action2Binding = KeyCode.E;
-            action3Binding = KeyCode.Mouse0;
+            action2Binding = KeyCode.Q;
+            action3Binding = KeyCode.E;
             action4Binding = KeyCode.Mouse2;
 
             leftBumper = KeyCode.LeftAlt;

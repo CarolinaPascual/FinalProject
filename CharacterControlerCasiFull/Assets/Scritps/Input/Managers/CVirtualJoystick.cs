@@ -7,8 +7,9 @@ public class CVirtualJoystick : MonoBehaviour {
 
     private InputDevice atachedDevice;
     private Vector2 _clampedVector;
-    private bool _deviceConnected;
+    private bool _deviceConnected = true;
     public float _clampDeadZone = 0.5f;
+    private string _lastDeviceName;
 
     #region Sticks
 
@@ -186,34 +187,48 @@ public class CVirtualJoystick : MonoBehaviour {
 
     #endregion
 
+    #region Values
+
+    public float GetLeftTrigerValue()
+    {
+        return atachedDevice.LeftTrigger.Value;
+    }
+
+    public float GetRightTrigerValue()
+    {
+        return atachedDevice.RightTrigger.Value;
+    }
+
+    #endregion
+
     #endregion
 
     public void init()
     {
         atachedDevice = CInputManager.Inst.getFreeActiveDevice();
+        _lastDeviceName = atachedDevice.Name;
+        InputManager.OnDeviceDetached += deviceDetached;
+        InputManager.OnDeviceAttached += deviceAttached;
     }
 
-    #region TO DO
-    private void updateDeviceStatus()
+    #region Attach & Detach
+
+    private void deviceDetached(InputDevice a)
     {
-        if (atachedDevice == null)
+        if (a == atachedDevice)
         {
             _deviceConnected = false;
         }
-        else
+    }
+
+    private void deviceAttached(InputDevice a)
+    {
+        if (!_deviceConnected && _lastDeviceName == a.Name)
         {
+            atachedDevice = a;
             _deviceConnected = true;
-        }  
+        }
     }
 
-    public void Update()
-    {
-        updateDeviceStatus();
-    }
-
-    public bool DeviceDetached()
-    {
-        return _deviceConnected;
-    }
     #endregion
 }

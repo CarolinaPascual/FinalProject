@@ -5,6 +5,8 @@ using UnityEngine;
 public class ShootingController : MonoBehaviour {
 
     public GameObject equipedWeapon;
+    public GameObject _gunsBones;
+
     private GenericWeapon weaponScript;
     private int facingDirection;
     private PlayerControler _controler;
@@ -45,5 +47,6 @@ public class ShootingController : MonoBehaviour {
         //GameObject.Destroy(equipedWeapon.gameObject);
         equipedWeapon = Instantiate(newWeapon, transform);        
         weaponScript = equipedWeapon.GetComponentInChildren<GenericWeapon>();
+        weaponScript._owner = gameObject.GetComponent<PlayerControler>();
     }
 }
