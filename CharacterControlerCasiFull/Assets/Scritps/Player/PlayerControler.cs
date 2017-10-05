@@ -29,6 +29,7 @@ public class PlayerControler : MonoBehaviour {
 
     [Header("States Variables")]
     public int _numberOfIFrames;
+
     #endregion
 
     #region States
@@ -37,6 +38,11 @@ public class PlayerControler : MonoBehaviour {
     public int State_Normal = 0;
     [HideInInspector]
     public int State_Stuned = 1;
+    [HideInInspector]
+    public int State_Dead = 2;
+    [HideInInspector]
+    public int State_Respawning = 3;
+
     private float _currentStateTime = 0;
     private float _currentStateFrames = 0;
     private float _stunedTime;
@@ -60,6 +66,7 @@ public class PlayerControler : MonoBehaviour {
     private Vector2 _pullDirection;
     private CharacterControler2D _controller;
     private CVirtualJoystick _myVirtualJoystick;
+    private PushControl _pushControl;
     #endregion
 
     #region MonoBehaviour Methods
@@ -75,6 +82,7 @@ public class PlayerControler : MonoBehaviour {
         _gravity = -(2 * _jumpHeight) / Mathf.Pow(_timeToJumpApex, 2);
         _jumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
         _myVirtualJoystick.init();
+        _pushControl = GetComponent<PushControl>();
         setState(State_Normal);
     }
 
@@ -192,6 +200,8 @@ public class PlayerControler : MonoBehaviour {
         _velocity.x = Mathf.SmoothDamp(_velocity.x, targetVelocityX, ref _velocityXDamper, (_controller._collisionInfo.below) ? _accelerationTimeGrounded : _accelerationTimeAirborned);
     }
 
+   
+
     #endregion
 
     #region States
@@ -215,6 +225,15 @@ public class PlayerControler : MonoBehaviour {
             _CurrentState = aState;
             _currentStateTime = 0;
             _currentStateFrames = 0;
+        }
+
+        if(aState == State_Dead)
+        {
+            _CurrentState = aState;
+            _currentStateTime = 0;
+            _currentStateFrames = 0;
+            _input.x = 0;
+            _velocity.x = 0;
         }
     }
 
@@ -245,6 +264,7 @@ public class PlayerControler : MonoBehaviour {
             jump();
             wallSlide();
             push();
+            pushControl();
             pull();
             dash();
             _velocity.y += _gravity * Time.deltaTime;
@@ -258,7 +278,7 @@ public class PlayerControler : MonoBehaviour {
     {
         if (getState() == State_Stuned)
         {
-            movement();
+            movement();            
             push();
             pull();
             _velocity.y += _gravity * Time.deltaTime;
@@ -291,6 +311,11 @@ public class PlayerControler : MonoBehaviour {
             _velocity.x = _pushDirection * _pushForce;
             _isPushed = false;
         }
+    }
+
+    private void pushControl()
+    {
+        _pushControl.pushBehavior();
     }
 
     public void startPull(Vector2 direction, float aForce)
@@ -364,5 +389,14 @@ public class PlayerControler : MonoBehaviour {
         return _wallSliding;
     }
 
+    #endregion
+
+
+
+    #region ColissionKiller
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        setState(State_Dead);
+    }
     #endregion
 }
