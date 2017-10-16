@@ -12,6 +12,7 @@ public class StungunControler : GenericWeapon {
     private BoxCollider2D _collider;
     private bool _fired;
     private int _fireCount;
+	private float _durationCount;
 
 	void Start ()
     {
@@ -21,10 +22,18 @@ public class StungunControler : GenericWeapon {
         _collider.enabled = false;
         _collider.size = new Vector3(_maxRaylength, .2f, 0);
         _collider.offset = new Vector3(_maxRaylength / 2, 0, 0);
+		_durationCount = duration;
+		_controler = _owner.GetComponent<ShootingController>();
     }
 
 	void Update ()
     {
+		_durationCount -= Time.deltaTime;
+		if (_durationCount <= 0)
+		{
+			_controler.clearWeapoon();
+		}
+
         resetColider();
         timeSinceLastShoot += Time.deltaTime;
     }

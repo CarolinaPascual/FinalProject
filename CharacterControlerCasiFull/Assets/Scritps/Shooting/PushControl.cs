@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PushControl : MonoBehaviour {
 
-    public float pushRange, pushCD, pushHeight,pushForce;
-    Collider2D _collider;
-    float pushCounter;
-    PlayerControler _controller;
-    AnimationControler _animControl;
-    private CVirtualJoystick _myVirtualJoystick;
+    public float pushRange, pushCD, pushHeight, pushForce;
+    private float pushCounter;
     private int facingDirection = 1;
+    private PlayerControler _controller;
+    private AnimationControler _animControl;
+    private Collider2D _collider;
+    private CVirtualJoystick _myVirtualJoystick;
+
 	void Start () {
         pushCounter = pushCD;
         _collider = GetComponent<Collider2D>();
@@ -20,7 +21,24 @@ public class PushControl : MonoBehaviour {
 
     }
 	
-	
+	// Update is called once per frame
+	void Update () {
+        pushCounter += Time.deltaTime;
+
+        if (_myVirtualJoystick.GetLeftStickClamped().x != 0)
+        {
+            facingDirection = (int)_myVirtualJoystick.GetLeftStickClamped().x;
+        }
+
+        if (inputCheck())
+        {
+            if(_controller.getState() != _controller.State_Stuned)
+            {
+                pushControl();
+                _animControl.play("Push", 1);
+            }
+        }
+	}
 
     public void pushBehavior()
     {
@@ -51,7 +69,6 @@ public class PushControl : MonoBehaviour {
             _collider.enabled = true;
             if (rayHit.collider !=null)                
             {
-                //Debug.Log(rayHit.transform.gameObject.name);
                 if (rayHit.transform.gameObject.tag == "Player")
                 {
                     rayHit.transform.gameObject.GetComponent<PlayerControler>().startPush(facingDirection, pushForce);

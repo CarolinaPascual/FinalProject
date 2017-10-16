@@ -7,6 +7,9 @@ public abstract class GenericWeapon : MonoBehaviour {
     public GameObject bullet;
     [HideInInspector]
     public PlayerControler _owner;
+	[HideInInspector]
+	public ShootingController _controler;
+	public GameObject _bulletSpawn;
     public float shootCD;
     public float duration;
     protected float timeSinceLastShoot;

@@ -29,7 +29,7 @@ public class PlayerControler : MonoBehaviour {
 
     [Header("States Variables")]
     public int _numberOfIFrames;
-
+	public float _slowedMovementAmount;
     #endregion
 
     #region States
@@ -38,14 +38,24 @@ public class PlayerControler : MonoBehaviour {
     public int State_Normal = 0;
     [HideInInspector]
     public int State_Stuned = 1;
+	[HideInInspector]
+	public int State_Slowed = 2;
+	[HideInInspector]
+	public int State_Pulling = 3;
+	[HideInInspector]
+	public int State_InputCursed = 4;
+	[HideInInspector]
+	public int State_JumpCursed = 5;
     [HideInInspector]
-    public int State_Dead = 2;
+    public int State_Dead = 6;
     [HideInInspector]
-    public int State_Respawning = 3;
+    public int State_Respawning = 7;
 
     private float _currentStateTime = 0;
     private float _currentStateFrames = 0;
     private float _stunedTime;
+	private float _slowedTime;
+	private float _cursedTme;
     #endregion 
 
     #region Privates
@@ -54,7 +64,8 @@ public class PlayerControler : MonoBehaviour {
     private bool _isPushed = false;
     private bool _isPulled = false;
     private int _pushDirection;
-    private float _dashCooldownCount;
+	private int _iFramesCount;
+	private float _dashCooldownCount;
     private float _pushForce;
     private float _pullForce;
     private float _gravity;
@@ -90,6 +101,10 @@ public class PlayerControler : MonoBehaviour {
     {
         stateNormal();
         stateStuned();
+		stateSlowed();
+		statePulling();
+		stateJumpCursed();
+		stateInputCursed();
         if (_controller._collisionInfo.above || _controller._collisionInfo.below)
         {
             _velocity.y = 0;
@@ -157,10 +172,10 @@ public class PlayerControler : MonoBehaviour {
         }
     }
 
-    private void jump()
+	private void jump(bool cursed = false)
     {
         int wallDirx = (_controller._collisionInfo.left) ? -1 : 1;
-        if (_myVirtualJoystick.GetAction1Down())
+		if (_myVirtualJoystick.GetAction1Down() || cursed)
         {
             if (_wallSliding)
             {
@@ -200,8 +215,6 @@ public class PlayerControler : MonoBehaviour {
         _velocity.x = Mathf.SmoothDamp(_velocity.x, targetVelocityX, ref _velocityXDamper, (_controller._collisionInfo.below) ? _accelerationTimeGrounded : _accelerationTimeAirborned);
     }
 
-   
-
     #endregion
 
     #region States
@@ -212,28 +225,86 @@ public class PlayerControler : MonoBehaviour {
         {
             if (_CurrentState != State_Stuned)
             {
-                _stunedTime = aTimeInState;
-                _CurrentState = aState;
-                _currentStateTime = 0;
-                _currentStateFrames = 0;
-                _input.x = 0;
-                _velocity.x = 0;
+				if (_iFramesCount <= 0) 
+				{
+					_stunedTime = aTimeInState;
+					_CurrentState = aState;
+					_currentStateTime = 0;
+					_currentStateFrames = 0;
+					_input.x = 0;
+					_velocity.x = 0;
+				}
             }
         }
-        if (aState == State_Normal)
-        {
-            _CurrentState = aState;
-            _currentStateTime = 0;
-            _currentStateFrames = 0;
-        }
 
-        if(aState == State_Dead)
+		if (aState == State_Slowed) 
+		{
+			if (_CurrentState != State_Slowed) 
+			{
+				if (_iFramesCount <= 0) 
+				{
+					_slowedTime = aTimeInState;
+					_CurrentState = aState;
+					_currentStateTime = 0;
+					_currentStateFrames = 0;
+				}
+			}
+		}
+
+		if (aState == State_Pulling) 
+		{
+			if (_CurrentState != State_Pulling) 
+			{
+				_CurrentState = aState;
+				_currentStateTime = 0;
+				_input.x = 0;
+				_input.y = 0;
+			}
+		}
+
+		if (aState == State_InputCursed)
+		{
+			if (_CurrentState != State_InputCursed)
+			{
+				if (_iFramesCount <= 0) 
+				{
+					_cursedTme = aTimeInState;
+					_CurrentState = aState;
+					_currentStateTime = 0;
+					_currentStateFrames = 0;
+				}
+			}
+		}
+
+		if (aState == State_JumpCursed)
+		{
+			if (_CurrentState != State_JumpCursed)
+			{
+				if (_iFramesCount <= 0) 
+				{
+					_cursedTme = aTimeInState;
+					_CurrentState = aState;
+					_currentStateTime = 0;
+					_currentStateFrames = 0;
+				}
+			}
+		}
+
+        if (aState == State_Dead)
         {
             _CurrentState = aState;
             _currentStateTime = 0;
             _currentStateFrames = 0;
             _input.x = 0;
             _velocity.x = 0;
+        }
+
+        if (aState == State_Normal)
+        {
+			_iFramesCount = _numberOfIFrames;
+            _CurrentState = aState;
+            _currentStateTime = 0;
+            _currentStateFrames = 0;
         }
     }
 
@@ -255,10 +326,19 @@ public class PlayerControler : MonoBehaviour {
         return 0;
     }
 
+	public void countIFrames()
+	{
+		if (_iFramesCount > 0) 
+		{
+			_iFramesCount--;
+		}
+	}
+
     private void stateNormal()
     {
         if (getState() == State_Normal)
         {
+			countIFrames();
             catchInput();
             movement();
             jump();
@@ -278,9 +358,9 @@ public class PlayerControler : MonoBehaviour {
     {
         if (getState() == State_Stuned)
         {
-            movement();            
+            movement();
             push();
-            pull();
+			pull();
             _velocity.y += _gravity * Time.deltaTime;
             _controller.Move(_velocity * Time.deltaTime);
             _currentStateFrames += 1;
@@ -292,6 +372,95 @@ public class PlayerControler : MonoBehaviour {
             }
         }
     }
+
+	private void stateSlowed()
+	{
+		if (getState() == State_Slowed)
+		{
+			catchInput();
+			movement();
+			jump();
+			wallSlide();
+			push();
+            pushControl();
+            pull();
+			dash();
+			_velocity.y += _gravity * Time.deltaTime;
+			_velocity.x = Mathf.Clamp (_velocity.x, -_slowedMovementAmount, _slowedMovementAmount);
+			_controller.Move(_velocity * Time.deltaTime);
+			_currentStateFrames += 1;
+			_currentStateTime += Time.deltaTime;
+			if (_currentStateTime >= _slowedTime)
+			{
+				setState(State_Normal);
+				_slowedTime = 0;
+			}
+		}
+	}
+
+	private void statePulling()
+	{
+		if (getState() == State_Pulling)
+		{
+			movement();
+			push();
+			pull();
+			_velocity.y += _gravity * Time.deltaTime;
+			_controller.Move(_velocity * Time.deltaTime);
+			_currentStateFrames += 1;
+			_currentStateTime += Time.deltaTime;
+		}
+	}
+		
+	private void stateInputCursed()
+	{
+		if (getState() == State_InputCursed)
+		{
+			catchInput();
+			_input.x = _input.x * -1;
+			movement();
+			jump();
+			wallSlide();
+			push();
+            pushControl();
+            pull();
+			dash();
+			_velocity.y += _gravity * Time.deltaTime;
+			_controller.Move(_velocity * Time.deltaTime);
+			_currentStateFrames += 1;
+			_currentStateTime += Time.deltaTime;
+			if (_currentStateTime >= _cursedTme)
+			{
+				setState(State_Normal);
+				_cursedTme = 0;
+			}
+		}
+	}
+
+	private void stateJumpCursed()
+	{
+		if (getState() == State_JumpCursed)
+		{
+			catchInput();
+			movement();
+			jump(true);
+			wallSlide();
+			push();
+            pushControl();
+            pull();
+			dash();
+			_velocity.y += _gravity * Time.deltaTime;
+			_controller.Move(_velocity * Time.deltaTime);
+			_currentStateFrames += 1;
+			_currentStateTime += Time.deltaTime;
+			if (_currentStateTime >= _cursedTme)
+			{
+				setState(State_Normal);
+				_cursedTme = 0;
+			}
+		}
+	}
+
 
     #endregion
 
@@ -320,40 +489,19 @@ public class PlayerControler : MonoBehaviour {
 
     public void startPull(Vector2 direction, float aForce)
     {
-        _isPulled = true;
-        _pullDirection = direction;
+		_isPulled = true;
+		_pullDirection = direction.normalized;
         _pullForce = aForce;
     }
 
-    public void stopPull()
-    {
-        _isPulled = false;
-    }
-
-    void pull()
-    {
-        if (_isPulled)
-        {
-            
-            _velocity = _pullDirection * _pullForce;
-            /*
-            if (_pullDirection.x != 0)
-            {
-                if (_controller._collisionInfo.left || _controller._collisionInfo.right)
-                {
-                    _isPulled = false;
-                }
-            }
-            if (Mathf.Abs(_pullDirection.y) == 1)
-            {
-                if (_controller._collisionInfo.below || _controller._collisionInfo.above)
-                {
-                    _isPulled = false;
-                }
-            }
-            */
-        }
-    }
+	private void pull()
+	{
+		if (_isPulled)
+		{
+			_velocity = _pullDirection * _pullForce;			
+			_isPulled = false;
+		}
+	}
 
     #endregion
 
@@ -390,8 +538,6 @@ public class PlayerControler : MonoBehaviour {
     }
 
     #endregion
-
-
 
     #region ColissionKiller
     void OnTriggerEnter2D(Collider2D other)

@@ -3,28 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ShootingController : MonoBehaviour {
-
-    public GameObject equipedWeapon;
+	
     public GameObject _gunsBones;
 
     private GenericWeapon weaponScript;
+	private GameObject equipedWeapon;
     private int facingDirection;
     private PlayerControler _controler;
     private CVirtualJoystick _virtualJoystick;
     private Vector2 input;
+
 	void Start ()
     {
         _controler = GetComponent<PlayerControler>();
         _virtualJoystick = _controler.getVirtualJoystick();
         facingDirection = 1;
-        equipWeapon(equipedWeapon);
     }
 	
 	// Update is called once per frame
 	void Update () {
+		
+		input = _virtualJoystick.GetLeftStickClamped();
 
+		if (equipedWeapon != null)
+		{
+			rotateModel();
+			equipedWeapon.transform.position = _gunsBones.transform.position;
+		}
         
-        input = _virtualJoystick.GetLeftStickClamped();
 
         if (input.x != 0)
         {
@@ -37,16 +43,86 @@ public class ShootingController : MonoBehaviour {
             {
                 input = new Vector2(facingDirection, 0);
             }
-            
-            weaponScript.fire(input);
+            if (_controler.getState() != _controler.State_Stuned)
+            {
+				if (equipedWeapon != null)
+				{
+					weaponScript.fire(input);
+				}
+            }
         }
 	}
 
-    void equipWeapon(GameObject newWeapon)
+    private void rotateModel()
     {
-        //GameObject.Destroy(equipedWeapon.gameObject);
+		if (_controler.getState() != _controler.State_Stuned && _controler.getState() != _controler.State_InputCursed)
+		{
+			if (_controler.isWallSlideing ()) 
+			{
+				if (_controler.getCharacterControler ()._collisionInfo.left) 
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+				}
+				if (_controler.getCharacterControler ()._collisionInfo.right) 
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+				}
+			}
+			else
+			{
+				if (_virtualJoystick.GetLeftStickClamped().x > 0)
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+				}
+				if (_virtualJoystick.GetLeftStickClamped().x < 0)
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+				}
+			}
+		}  
+		if (_controler.getState () == _controler.State_InputCursed) 
+		{
+			if (_controler.isWallSlideing ()) 
+			{
+				if (_controler.getCharacterControler ()._collisionInfo.left) 
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+				}
+				if (_controler.getCharacterControler ()._collisionInfo.right) 
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+				}
+			}
+			else
+			{
+				if (_virtualJoystick.GetLeftStickClamped().x > 0)
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+				}
+				if (_virtualJoystick.GetLeftStickClamped().x < 0)
+				{
+					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+				}
+			}
+		}
+    }
+
+    public void equipWeapon(GameObject newWeapon)
+    {
+		if (equipedWeapon != null)
+		{
+			GameObject.Destroy(equipedWeapon.gameObject);
+			equipedWeapon = null;
+		}
         equipedWeapon = Instantiate(newWeapon, transform);        
         weaponScript = equipedWeapon.GetComponentInChildren<GenericWeapon>();
         weaponScript._owner = gameObject.GetComponent<PlayerControler>();
+        equipedWeapon.transform.position = _gunsBones.transform.position;
     }
+
+	public void clearWeapoon()
+	{
+		GameObject.Destroy(equipedWeapon.gameObject);
+		equipedWeapon= null;
+	}
 }
