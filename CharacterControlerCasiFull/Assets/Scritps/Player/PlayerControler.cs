@@ -30,6 +30,7 @@ public class PlayerControler : MonoBehaviour {
     [Header("States Variables")]
     public int _numberOfIFrames;
 	public float _slowedMovementAmount;
+    public float timeToRespawn;
     #endregion
 
     #region States
@@ -44,7 +45,9 @@ public class PlayerControler : MonoBehaviour {
 	public int State_Pulling = 3;
 	[HideInInspector]
 	public int State_InputCursed = 4;
-	[HideInInspector]
+
+   
+    [HideInInspector]
 	public int State_JumpCursed = 5;
     [HideInInspector]
     public int State_Dead = 6;
@@ -105,6 +108,8 @@ public class PlayerControler : MonoBehaviour {
 		statePulling();
 		stateJumpCursed();
 		stateInputCursed();
+        stateDead();
+        stateRespawning();
         if (_controller._collisionInfo.above || _controller._collisionInfo.below)
         {
             _velocity.y = 0;
@@ -306,6 +311,14 @@ public class PlayerControler : MonoBehaviour {
             _currentStateTime = 0;
             _currentStateFrames = 0;
         }
+        if(aState == State_Respawning)
+        {
+            _CurrentState = aState;
+            _currentStateTime = 0;
+            _currentStateFrames = 0;
+            _input.x = 0;
+            _velocity.x = 0;
+        }
     }
 
     public int getState()
@@ -461,6 +474,30 @@ public class PlayerControler : MonoBehaviour {
 		}
 	}
 
+    private void stateDead()
+    {
+        if(getState()== State_Dead) {
+            _currentStateFrames += 1;
+            _currentStateTime += Time.deltaTime;
+            GameObject placeToRespawn = ReSpawner.Inst.getPlaceToSpawn();
+            transform.position = placeToRespawn.transform.position;
+            setState(State_Respawning);
+        }
+    }
+
+    private void stateRespawning()
+    {
+        if(getState()== State_Respawning)
+        {
+            _currentStateFrames += 1;
+            _currentStateTime += Time.deltaTime;
+            if (_currentStateTime >= timeToRespawn)
+            {
+                setState(State_Normal);
+            }
+        }
+    }
+
 
     #endregion
 
@@ -472,6 +509,9 @@ public class PlayerControler : MonoBehaviour {
         _pushDirection = direction;
         _pushForce = aForce;
     }
+
+ 
+
 
     void push()
     {
@@ -502,6 +542,10 @@ public class PlayerControler : MonoBehaviour {
 			_isPulled = false;
 		}
 	}
+
+    void stopPull()
+    {
+    }
 
     #endregion
 

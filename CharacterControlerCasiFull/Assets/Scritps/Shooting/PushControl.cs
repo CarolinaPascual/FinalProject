@@ -21,24 +21,7 @@ public class PushControl : MonoBehaviour {
 
     }
 	
-	// Update is called once per frame
-	void Update () {
-        pushCounter += Time.deltaTime;
 
-        if (_myVirtualJoystick.GetLeftStickClamped().x != 0)
-        {
-            facingDirection = (int)_myVirtualJoystick.GetLeftStickClamped().x;
-        }
-
-        if (inputCheck())
-        {
-            if(_controller.getState() != _controller.State_Stuned)
-            {
-                pushControl();
-                _animControl.play("Push", 1);
-            }
-        }
-	}
 
     public void pushBehavior()
     {
