@@ -42,7 +42,7 @@ public class PullgunControler : GenericWeapon {
                 Vector2 v = transform.position - _hitTarget.transform.position;
                 if (v.magnitude <= .5f)
                 {
-                    _hitTarget.stopPull();
+                   
                     _hitTarget = null;
                 }
             }
