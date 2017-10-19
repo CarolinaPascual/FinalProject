@@ -63,7 +63,7 @@ public class PlayerControler : MonoBehaviour {
 
     #region Privates
     private bool _wallSliding = false;
-    private bool _dashed = false;
+    public bool _dashed = false;
     private bool _isPushed = false;
     private bool _isPulled = false;
     private int _pushDirection;
