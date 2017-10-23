@@ -18,20 +18,19 @@ public class PushControl : MonoBehaviour {
         _controller = GetComponent<PlayerControler>();
         _animControl = GetComponent<AnimationControler>();
         _myVirtualJoystick = _controller.getVirtualJoystick();
-
     }
-	
-
 
     public void pushBehavior()
     {
         pushCounter += Time.deltaTime;
 
-        if (_myVirtualJoystick.GetLeftStickClamped().x != 0)
-        {
-            facingDirection = (int)_myVirtualJoystick.GetLeftStickClamped().x;
-        }
-
+		if (_myVirtualJoystick.getAtachedDevice() != null)
+		{
+			if (_myVirtualJoystick.GetLeftStickClamped().x != 0)
+			{
+				facingDirection = (int)_myVirtualJoystick.GetLeftStickClamped().x;
+			}
+		}
         if (inputCheck())
         {
             pushControl();
@@ -64,14 +63,15 @@ public class PushControl : MonoBehaviour {
     {
         if (pushCounter >= pushCD)
         {
-            if (_myVirtualJoystick.GetLeftTriggerDown())
-            {
-                pushCounter = 0;
-                return true;    
-            }                  
+			if (_myVirtualJoystick.getAtachedDevice() != null)
+			{
+				if (_myVirtualJoystick.GetLeftTriggerDown())
+				{
+					pushCounter = 0;
+					return true;    
+				}                  
+			}
         }
-        return false;
-           
+        return false; 
     }
-
 }

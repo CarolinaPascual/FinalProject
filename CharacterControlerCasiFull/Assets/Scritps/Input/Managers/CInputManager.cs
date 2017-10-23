@@ -21,6 +21,7 @@ public class CInputManager : MonoBehaviour {
 
     #region Privates
     private List<InputDevice> _activeDevices;
+	private List<bool> _usedDevices;
     private KeyboardDevice _keyboardDevice;
     private bool _joyStickOneUsed;
     private bool _joyStickTwoUsed;
@@ -51,32 +52,26 @@ public class CInputManager : MonoBehaviour {
 
     public InputDevice getFreeActiveDevice()
     {
-        if (!_joyStickOneUsed)
-        {
-            _joyStickOneUsed = true;
-            return _activeDevices[0];
-        }
-        if (!_joyStickTwoUsed)
-        {
-            _joyStickTwoUsed = true;
-            return _activeDevices[1];
-        }
-        if (!_joyStickThreeUsed)
-        {
-            _joyStickThreeUsed = true;
-            return _activeDevices[2];
-        }
-        if (!_joyStickFourUsed)
-        {
-            _joyStickFourUsed = true;
-            return _activeDevices[3];
-        }
-        if (!_keyboardUsed)
-        {
-            _keyboardUsed = true;
-            return _keyboardDevice;
-        }
-        return null;
+		for (int i = 0; i < _activeDevices.Count; i++) 
+		{
+			if (_activeDevices [i].Name != _keyboardDevice.Name) 
+			{
+				if (_usedDevices[i] == false)
+				{
+					_usedDevices [i] = true;
+					return _activeDevices [i];
+				}
+			}	
+			else
+			{
+				if (_keyboardUsed == false)
+				{
+					_keyboardUsed = true;
+					return _keyboardDevice;
+				}
+			}
+		}
+		return null;
     }
 
     private void init()
@@ -90,6 +85,20 @@ public class CInputManager : MonoBehaviour {
         _keyboardDevice = new KeyboardDevice();
         InputManager.AttachDevice(_keyboardDevice);
         _activeDevices = InputManager.Devices.ToList();
+		_usedDevices = new List<bool> (4);
+		bools ();
     }
+
+	private void bools()
+	{
+		bool a = false;
+		bool b = false;
+		bool c = false;
+		bool d = false;
+		_usedDevices.Add(a);
+		_usedDevices.Add(b);
+		_usedDevices.Add(c);
+		_usedDevices.Add(d);
+	}
 
 }

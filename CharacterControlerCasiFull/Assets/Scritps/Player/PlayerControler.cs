@@ -63,7 +63,7 @@ public class PlayerControler : MonoBehaviour {
 
     #region Privates
     private bool _wallSliding = false;
-    public bool _dashed = false;
+    private bool _dashed = false;
     private bool _isPushed = false;
     private bool _isPulled = false;
     private int _pushDirection;
@@ -150,68 +150,75 @@ public class PlayerControler : MonoBehaviour {
 
     private void dash()
     {
-        if (_myVirtualJoystick.GetAction3Down() && !_dashed)
-        {
-            if (_input.x == 0)
-            {
-                _velocity.x = _dashForce * _controller._collisionInfo.faceDir;
-                _dashed = true;
-                return;
-            }
-            else
-            {
-                _velocity.x = _dashForce * _input.x;
-                _dashed = true;
-                return;
-            }
-
-        }
-        if (_dashed)
-        {
-            _dashCooldownCount += Time.deltaTime;
-            if (_dashCooldownCount >= _dashCooldown)
-            {
-                _dashCooldownCount = 0;
-                _dashed = false;
-            }
-        }
+		if (_myVirtualJoystick.getAtachedDevice() != null)
+		{
+			if (_myVirtualJoystick.GetAction3Down() && !_dashed)
+			{
+				if (_input.x == 0)
+				{
+					_velocity.x = _dashForce * _controller._collisionInfo.faceDir;
+					_dashed = true;
+					return;
+				}
+				else
+				{
+					_velocity.x = _dashForce * _input.x;
+					_dashed = true;
+					return;
+				}
+				
+			}
+			if (_dashed)
+			{
+				_dashCooldownCount += Time.deltaTime;
+				if (_dashCooldownCount >= _dashCooldown)
+				{
+					_dashCooldownCount = 0;
+					_dashed = false;
+				}
+			}
+		}
     }
 
 	private void jump(bool cursed = false)
     {
         int wallDirx = (_controller._collisionInfo.left) ? -1 : 1;
-		if (_myVirtualJoystick.GetAction1Down() || cursed)
-        {
-            if (_wallSliding)
-            {
-                if (wallDirx == _input.x)
-                {
-                    _velocity.x = -wallDirx * _wallJumpClimb.x;
-                    _velocity.y = _wallJumpClimb.y;
-                }
-                else if (_input.x == 0)
-                {
-                    _velocity.x = -wallDirx * _wallJumpOff.x;
-                    _velocity.y = _wallJumpOff.y;
-                }
-                else
-                {
-                    _velocity.x = -wallDirx * _wallJumpLeap.x;
-                    _velocity.y = _wallJumpLeap.y;
-                }
-            }
-            if (_controller._collisionInfo.below)
-            {
-                if (_input.y < 0)
-                {
-                    _controller._ignoreOneWayPlatformsThisFrame = true;
-                }
-                else
-                {
-                    _velocity.y = _jumpVelocity;
-                }
-            }
-        }
+
+		if (_myVirtualJoystick.getAtachedDevice() != null)
+		{
+			if (_myVirtualJoystick.GetAction1Down() || cursed)
+			{
+				if (_wallSliding)
+				{
+					if (wallDirx == _input.x)
+					{
+						_velocity.x = -wallDirx * _wallJumpClimb.x;
+						_velocity.y = _wallJumpClimb.y;
+					}
+					else if (_input.x == 0)
+					{
+						_velocity.x = -wallDirx * _wallJumpOff.x;
+						_velocity.y = _wallJumpOff.y;
+					}
+					else
+					{
+						_velocity.x = -wallDirx * _wallJumpLeap.x;
+						_velocity.y = _wallJumpLeap.y;
+					}
+				}
+				if (_controller._collisionInfo.below)
+				{
+					if (_input.y < 0)
+					{
+						_controller._ignoreOneWayPlatformsThisFrame = true;
+					}
+					else
+					{
+						_velocity.y = _jumpVelocity;
+					}
+				}
+			}
+		}
     }
 
     private void movement()
@@ -509,10 +516,7 @@ public class PlayerControler : MonoBehaviour {
         _pushDirection = direction;
         _pushForce = aForce;
     }
-
- 
-
-
+		
     void push()
     {
         if (_isPushed)
@@ -553,7 +557,10 @@ public class PlayerControler : MonoBehaviour {
 
     private void catchInput()
     {
-        _input = _myVirtualJoystick.GetLeftStickClamped();
+		if (_myVirtualJoystick.getAtachedDevice() != null)
+		{
+			_input = _myVirtualJoystick.GetLeftStickClamped();
+		}
     }
 
     public int getFacingDirection()
@@ -586,7 +593,10 @@ public class PlayerControler : MonoBehaviour {
     #region ColissionKiller
     void OnTriggerEnter2D(Collider2D other)
     {
-        setState(State_Dead);
+		if (other.tag == "killer")
+		{
+			setState(State_Dead);
+		}
     }
     #endregion
 }

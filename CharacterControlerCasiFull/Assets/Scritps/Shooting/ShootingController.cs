@@ -22,8 +22,11 @@ public class ShootingController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		input = _virtualJoystick.GetLeftStickClamped();
+
+		if (_virtualJoystick.getAtachedDevice () != null) 
+		{
+			input = _virtualJoystick.GetLeftStickClamped();
+		}
 
 		if (equipedWeapon != null)
 		{
@@ -37,20 +40,23 @@ public class ShootingController : MonoBehaviour {
             facingDirection = (int)input.x;
         }
 
-        if(_virtualJoystick.GetRightTriggerDown() || _virtualJoystick.GetRightTriggerPressed())
-        {
-            if (input == Vector2.zero)
-            {
-                input = new Vector2(facingDirection, 0);
-            }
-            if (_controler.getState() != _controler.State_Stuned)
-            {
-				if (equipedWeapon != null)
+		if (_virtualJoystick.getAtachedDevice() != null)
+		{
+			if(_virtualJoystick.GetRightTriggerDown() || _virtualJoystick.GetRightTriggerPressed())
+			{
+				if (input == Vector2.zero)
 				{
-					weaponScript.fire(input);
+					input = new Vector2(facingDirection, 0);
 				}
-            }
-        }
+				if (_controler.getState() != _controler.State_Stuned)
+				{
+					if (equipedWeapon != null)
+					{
+						weaponScript.fire(input);
+					}
+				}
+			}
+		}
 	}
 
     private void rotateModel()
@@ -70,13 +76,16 @@ public class ShootingController : MonoBehaviour {
 			}
 			else
 			{
-				if (_virtualJoystick.GetLeftStickClamped().x > 0)
+				if (_virtualJoystick.getAtachedDevice() != null)
 				{
-					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
-				}
-				if (_virtualJoystick.GetLeftStickClamped().x < 0)
-				{
-					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+					if (_virtualJoystick.GetLeftStickClamped().x > 0)
+					{
+						equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x < 0)
+					{
+						equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+					}
 				}
 			}
 		}  
@@ -95,13 +104,16 @@ public class ShootingController : MonoBehaviour {
 			}
 			else
 			{
-				if (_virtualJoystick.GetLeftStickClamped().x > 0)
+				if (_virtualJoystick.getAtachedDevice() != null)
 				{
-					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
-				}
-				if (_virtualJoystick.GetLeftStickClamped().x < 0)
-				{
-					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+					if (_virtualJoystick.GetLeftStickClamped().x > 0)
+					{
+						equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x < 0)
+					{
+						equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+					}
 				}
 			}
 		}
@@ -122,7 +134,10 @@ public class ShootingController : MonoBehaviour {
 
 	public void clearWeapoon()
 	{
-		GameObject.Destroy(equipedWeapon.gameObject);
-		equipedWeapon= null;
+		if (equipedWeapon != null)
+		{
+			GameObject.Destroy(equipedWeapon.gameObject);
+			equipedWeapon= null;
+		}
 	}
 }

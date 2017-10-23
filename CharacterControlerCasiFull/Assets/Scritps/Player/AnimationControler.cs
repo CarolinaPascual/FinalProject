@@ -77,13 +77,16 @@ public class AnimationControler : MonoBehaviour {
 
     private void rotateModel()
     {
-        if (_virtualJoystick.GetLeftStickClamped().x > 0)
-        {
-            _model.transform.eulerAngles = new Vector3(0, 90, 0);
-        }
-        if (_virtualJoystick.GetLeftStickClamped().x < 0)
-        {
-            _model.transform.eulerAngles = new Vector3(0, -90, 0);
-        }
+		if (_virtualJoystick.getAtachedDevice() != null)
+		{
+			if (_virtualJoystick.GetLeftStickClamped().x > 0)
+			{
+				_model.transform.eulerAngles = new Vector3(0, 90, 0);
+			}
+			if (_virtualJoystick.GetLeftStickClamped().x < 0)
+			{
+				_model.transform.eulerAngles = new Vector3(0, -90, 0);
+			}
+		}
     }
 }

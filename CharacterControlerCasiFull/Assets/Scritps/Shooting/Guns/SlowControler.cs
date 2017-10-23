@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class SlowControler : MonoBehaviour {
 
+	[HideInInspector]
 	public float _slowTime = 2;
+	[HideInInspector]
 	public PlayerControler _owner;
+	[HideInInspector]
 	public bool _isProyectile;
 
 	void Start ()
