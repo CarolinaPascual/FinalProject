@@ -9,14 +9,18 @@ public class ShootingController : MonoBehaviour {
     private GenericWeapon weaponScript;
 	private GameObject equipedWeapon;
     private int facingDirection;
-    private PlayerControler _controler;
+	private PlayerControler _controler;
+	[HideInInspector]
+	public bool _hasGun = false;
     private CVirtualJoystick _virtualJoystick;
     private Vector2 input;
+	private Vector3 _rotationVec;
 
 	void Start ()
     {
         _controler = GetComponent<PlayerControler>();
         _virtualJoystick = _controler.getVirtualJoystick();
+		_rotationVec = Vector3.zero;
         facingDirection = 1;
     }
 	
@@ -48,7 +52,7 @@ public class ShootingController : MonoBehaviour {
 				{
 					input = new Vector2(facingDirection, 0);
 				}
-				if (_controler.getState() != _controler.State_Stuned)
+				if (_controler.getState() != _controler.State_Stuned && !_controler.isWallSlideing ())
 				{
 					if (equipedWeapon != null)
 					{
@@ -63,57 +67,70 @@ public class ShootingController : MonoBehaviour {
     {
 		if (_controler.getState() != _controler.State_Stuned && _controler.getState() != _controler.State_InputCursed)
 		{
-			if (_controler.isWallSlideing ()) 
+			if (_virtualJoystick.getAtachedDevice() != null)
 			{
-				if (_controler.getCharacterControler ()._collisionInfo.left) 
+				if (_virtualJoystick.GetLeftStickClamped().x > 0)
 				{
-					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+					_rotationVec.y = 0;
 				}
-				if (_controler.getCharacterControler ()._collisionInfo.right) 
+				if (_virtualJoystick.GetLeftStickClamped().x < 0)
 				{
-					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+					_rotationVec.y = 180;
 				}
-			}
-			else
-			{
-				if (_virtualJoystick.getAtachedDevice() != null)
+				if (_virtualJoystick.GetLeftStickClamped().y > 0)
 				{
 					if (_virtualJoystick.GetLeftStickClamped().x > 0)
 					{
-						equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
+						_rotationVec.y = 0;
+						_rotationVec.z = 45;
 					}
 					if (_virtualJoystick.GetLeftStickClamped().x < 0)
 					{
-						equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
+						_rotationVec.y = 180;
+						_rotationVec.z = 45;
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x == 0)
+					{
+						_rotationVec.z = 90;
 					}
 				}
+				if (_virtualJoystick.GetLeftStickClamped().y < 0)
+				{
+					if (_virtualJoystick.GetLeftStickClamped().x > 0)
+					{
+						_rotationVec.y = 0;
+						_rotationVec.z = -45;
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x < 0)
+					{
+						_rotationVec.y = 180;
+						_rotationVec.z = -45;
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x == 0)
+					{
+						_rotationVec.z = -90;
+					}
+				}
+				if (Mathf.Abs(_virtualJoystick.GetLeftStickClamped().y) == 0)
+				{
+					_rotationVec.z = 0;
+				}
+				equipedWeapon.transform.eulerAngles = _rotationVec;//NO VUELVE A 0.
 			}
 		}  
 		if (_controler.getState () == _controler.State_InputCursed) 
 		{
-			if (_controler.isWallSlideing ()) 
+			if (_virtualJoystick.getAtachedDevice() != null)
 			{
-				if (_controler.getCharacterControler ()._collisionInfo.left) 
+				if (_virtualJoystick.GetLeftStickClamped().x > 0)
 				{
+					_rotationVec.y = 180;
 					equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
 				}
-				if (_controler.getCharacterControler ()._collisionInfo.right) 
+				if (_virtualJoystick.GetLeftStickClamped().x < 0)
 				{
+					_rotationVec.y = 0;
 					equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
-				}
-			}
-			else
-			{
-				if (_virtualJoystick.getAtachedDevice() != null)
-				{
-					if (_virtualJoystick.GetLeftStickClamped().x > 0)
-					{
-						equipedWeapon.transform.eulerAngles = new Vector3(0, 180, 0);
-					}
-					if (_virtualJoystick.GetLeftStickClamped().x < 0)
-					{
-						equipedWeapon.transform.eulerAngles = new Vector3(0, 0, 0);
-					}
 				}
 			}
 		}
@@ -129,7 +146,8 @@ public class ShootingController : MonoBehaviour {
         equipedWeapon = Instantiate(newWeapon, transform);        
         weaponScript = equipedWeapon.GetComponentInChildren<GenericWeapon>();
         weaponScript._owner = gameObject.GetComponent<PlayerControler>();
-        equipedWeapon.transform.position = _gunsBones.transform.position;
+		equipedWeapon.transform.position = _gunsBones.transform.position;
+		_hasGun = true;
     }
 
 	public void clearWeapoon()
@@ -138,6 +156,7 @@ public class ShootingController : MonoBehaviour {
 		{
 			GameObject.Destroy(equipedWeapon.gameObject);
 			equipedWeapon= null;
+			_hasGun = false;
 		}
 	}
 }

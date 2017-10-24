@@ -10,18 +10,22 @@ public class AnimationControler : MonoBehaviour {
     public string _velocityXParameter;
     public string _velocityYParameter;
     public string _airborneParameter;
-    public string _wallSlideParameter;
-    public string _stunedParameter;
+	public string _stunedParameter;
+	public string _aimDirectionXParameter;
+	public string _aimDirectionYParameter;
+	public string _hasGunParameter;
     public GameObject _model;
     public Animator _anim;
 
     private PlayerControler _controler;
-    private CVirtualJoystick _virtualJoystick;
+	private CVirtualJoystick _virtualJoystick;
+	private ShootingController _shootingControler;
 
 	void Start ()
     {
         _controler = GetComponent<PlayerControler>();
-        _virtualJoystick = _controler.getVirtualJoystick();
+		_virtualJoystick = _controler.getVirtualJoystick();
+		_shootingControler = GetComponent<ShootingController> ();
         _anim.Play(_idle_walkState);
         _model.transform.eulerAngles = new Vector3(0, 90, 0);
 
@@ -38,7 +42,29 @@ public class AnimationControler : MonoBehaviour {
     {
         _anim.SetBool(_airborneParameter, !_controler.getCharacterControler()._collisionInfo.below);
         _anim.SetBool(_wallslideState, _controler.isWallSlideing());
-        _anim.SetFloat(_velocityYParameter, _controler.getVelocityVector().y);
+		_anim.SetFloat(_velocityYParameter, _controler.getVelocityVector().y);
+		_anim.SetBool (_hasGunParameter, _shootingControler._hasGun);
+
+
+		if (_shootingControler._hasGun) 
+		{
+			Debug.Log (_anim.GetFloat(_aimDirectionXParameter) + " " + (_anim.GetFloat(_aimDirectionYParameter)));
+
+			if (_virtualJoystick.getAtachedDevice() != null)
+			{
+				if (_virtualJoystick.GetLeftStickClamped().x == 0 && _virtualJoystick.GetLeftStickClamped().y == 0)
+				{
+					_anim.SetFloat (_aimDirectionYParameter, 0);
+					_anim.SetFloat (_aimDirectionXParameter, 1);
+				}
+				else
+				{
+					_anim.SetFloat (_aimDirectionYParameter, _virtualJoystick.GetLeftStickClamped ().y);
+					_anim.SetFloat (_aimDirectionXParameter, Mathf.Abs (_virtualJoystick.GetLeftStickClamped ().x));
+				}
+			}
+		}
+
         if (_controler.getState() == _controler.State_Stuned)
         {
             _anim.SetBool(_stunedParameter, true);
@@ -65,7 +91,10 @@ public class AnimationControler : MonoBehaviour {
             }
             else
             {
-                _anim.SetFloat(_velocityXParameter, Mathf.Abs(_controler.getVelocityVector().x));
+				if (_virtualJoystick.getAtachedDevice() != null)
+				{
+					_anim.SetFloat(_velocityXParameter, Mathf.Abs(_controler.getVelocityVector().x));
+				}
             }
         }        
     }
@@ -75,18 +104,63 @@ public class AnimationControler : MonoBehaviour {
         _anim.Play(aState, aLayer);
     }
 
-    private void rotateModel()
-    {
-		if (_virtualJoystick.getAtachedDevice() != null)
+	private void rotateModel()
+	{
+		if (_controler.getState() != _controler.State_Stuned && _controler.getState() != _controler.State_InputCursed)
 		{
-			if (_virtualJoystick.GetLeftStickClamped().x > 0)
+			if (_controler.isWallSlideing ()) 
 			{
-				_model.transform.eulerAngles = new Vector3(0, 90, 0);
+				if (_controler.getCharacterControler ()._collisionInfo.right) 
+				{
+					_model.transform.eulerAngles = new Vector3(0, 90, 0);
+				}
+				if (_controler.getCharacterControler ()._collisionInfo.left) 
+				{
+					_model.transform.eulerAngles = new Vector3(0, -90, 0);
+				}
 			}
-			if (_virtualJoystick.GetLeftStickClamped().x < 0)
+			else
 			{
-				_model.transform.eulerAngles = new Vector3(0, -90, 0);
+				if (_virtualJoystick.getAtachedDevice() != null)
+				{
+					if (_virtualJoystick.GetLeftStickClamped().x > 0)
+					{
+						_model.transform.eulerAngles = new Vector3(0, 90, 0);
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x < 0)
+					{
+						_model.transform.eulerAngles = new Vector3(0, -90, 0);
+					}
+				}
+			}
+		}  
+		if (_controler.getState () == _controler.State_InputCursed) 
+		{
+			if (_controler.isWallSlideing ()) 
+			{
+				if (_controler.getCharacterControler ()._collisionInfo.right) 
+				{
+					_model.transform.eulerAngles = new Vector3(0, -90, 0);
+				}
+				if (_controler.getCharacterControler ()._collisionInfo.left) 
+				{
+					_model.transform.eulerAngles = new Vector3(0, 90, 0);
+				}
+			}
+			else
+			{
+				if (_virtualJoystick.getAtachedDevice() != null)
+				{
+					if (_virtualJoystick.GetLeftStickClamped().x > 0)
+					{
+						_model.transform.eulerAngles = new Vector3(0, -90, 0);
+					}
+					if (_virtualJoystick.GetLeftStickClamped().x < 0)
+					{
+						_model.transform.eulerAngles = new Vector3(0, 90, 0);
+					}
+				}
 			}
 		}
-    }
+	}
 }

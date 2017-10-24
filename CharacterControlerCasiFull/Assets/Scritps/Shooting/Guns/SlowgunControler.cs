@@ -30,7 +30,7 @@ public class SlowgunControler : GenericWeapon {
 	{
 		if (timeSinceLastShoot >= shootCD) 
 		{
-			GameObject auxBullet = Instantiate(bullet, transform.position, Quaternion.identity);
+			GameObject auxBullet = Instantiate(bullet, _bulletSpawn.transform.position, Quaternion.identity);
 			auxBullet.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
 			auxBullet.GetComponent<SlowControler> ()._owner = _owner;
 			auxBullet.GetComponent<SlowControler> ()._isProyectile = true;
