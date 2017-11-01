@@ -81,17 +81,19 @@ public class PlayerControler : MonoBehaviour {
     private CharacterControler2D _controller;
     private CVirtualJoystick _myVirtualJoystick;
     private PushControl _pushControl;
+    private int score;
     #endregion
 
     #region MonoBehaviour Methods
 
     private void Awake()
     {
-        _myVirtualJoystick = new CVirtualJoystick();
+        _myVirtualJoystick = new CVirtualJoystick();        
     }
 
     void Start()
     {
+         LevelManager.Inst.addToList(this);
         _controller = GetComponent<CharacterControler2D>();
         _gravity = -(2 * _jumpHeight) / Mathf.Pow(_timeToJumpApex, 2);
         _jumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
@@ -309,6 +311,7 @@ public class PlayerControler : MonoBehaviour {
             _currentStateFrames = 0;
             _input.x = 0;
             _velocity.x = 0;
+            score--;
         }
 
         if (aState == State_Normal)
@@ -588,12 +591,17 @@ public class PlayerControler : MonoBehaviour {
         return _wallSliding;
     }
 
+    public int getScore()
+    {
+        return score;
+    }
+
     #endregion
 
     #region ColissionKiller
     void OnTriggerEnter2D(Collider2D other)
     {
-		if (other.tag == "killer")
+		if (other.tag == "Killer")
 		{
 			setState(State_Dead);
 		}

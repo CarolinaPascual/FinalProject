@@ -7,6 +7,7 @@ public class LevelSpawner : MonoBehaviour {
     public List<Module> spawnModules;
     public float[] spawners;
     public float levelHeight;
+    public Module endModule;
 
 	void Start () {
         spawners = new float[2] { transform.position.y, transform.position.y };       
@@ -38,5 +39,8 @@ public class LevelSpawner : MonoBehaviour {
                 setModule(i);
             }
         }
+        float wheretoSpawnEnd = spawners[0] > spawners[1] ? spawners[0] : spawners[1];
+        Vector3 spawnEnd = new Vector3(0, wheretoSpawnEnd, 0);
+        Module newModule = Instantiate(endModule, spawnEnd, Quaternion.identity, transform);
     }
 }
