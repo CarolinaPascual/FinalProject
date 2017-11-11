@@ -6,6 +6,7 @@ public class SlowgunControler : GenericWeapon {
 
 	// Use this for initialization
 	private float _durationCount;
+	public ParticleSystem _particleSystem;
 
 	void Start () 
 	{
@@ -35,6 +36,8 @@ public class SlowgunControler : GenericWeapon {
 			auxBullet.GetComponent<SlowControler> ()._owner = _owner;
 			auxBullet.GetComponent<SlowControler> ()._isProyectile = true;
 			timeSinceLastShoot = 0;
+			_particleSystem.gameObject.SetActive(true);
+			_particleSystem.Emit(Random.Range(10,15));
 		}
 	}
 

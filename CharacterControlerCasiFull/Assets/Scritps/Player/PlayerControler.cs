@@ -486,7 +486,8 @@ public class PlayerControler : MonoBehaviour {
 
     private void stateDead()
     {
-        if(getState()== State_Dead) {
+        if(getState()== State_Dead) 
+        {
             _currentStateFrames += 1;
             _currentStateTime += Time.deltaTime;
             GameObject placeToRespawn = ReSpawner.Inst.getPlaceToSpawn();
@@ -495,10 +496,12 @@ public class PlayerControler : MonoBehaviour {
         }
     }
 
-    private void stateRespawning()
+   private void stateRespawning()
     {
         if(getState()== State_Respawning)
         {
+            _velocity.y += _gravity * Time.deltaTime;
+            _controller.Move(_velocity * Time.deltaTime);
             _currentStateFrames += 1;
             _currentStateTime += Time.deltaTime;
             if (_currentStateTime >= timeToRespawn)
@@ -507,6 +510,7 @@ public class PlayerControler : MonoBehaviour {
             }
         }
     }
+
 
 
     #endregion

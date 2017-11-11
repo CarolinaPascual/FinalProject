@@ -35,5 +35,9 @@ public class SlowControler : MonoBehaviour {
 				}
 			}
 		}
+		else
+		{
+			Destroy (gameObject);
+		}
 	}
 }

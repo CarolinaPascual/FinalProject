@@ -48,8 +48,6 @@ public class AnimationControler : MonoBehaviour {
 
 		if (_shootingControler._hasGun) 
 		{
-			Debug.Log (_anim.GetFloat(_aimDirectionXParameter) + " " + (_anim.GetFloat(_aimDirectionYParameter)));
-
 			if (_virtualJoystick.getAtachedDevice() != null)
 			{
 				if (_virtualJoystick.GetLeftStickClamped().x == 0 && _virtualJoystick.GetLeftStickClamped().y == 0)

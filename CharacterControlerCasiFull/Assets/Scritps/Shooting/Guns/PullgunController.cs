@@ -8,6 +8,7 @@ public class PullgunController : GenericWeapon {
 	public bool _fired;
 	public float _pullSpeed;
 	public float _maxLenght;
+	public LineRenderer _lineRender;
 	private float _durationCount;
 	private GameObject _lastHook;
 	private Vector3 _distToHook;
@@ -46,6 +47,7 @@ public class PullgunController : GenericWeapon {
 				_lastHook.GetComponent<HookControler>().destoyHook();
 				_owner.setState (_owner.State_Normal);
 				_fired = false;
+				_lineRender.enabled = false;
 			}
 		}
 	}
@@ -65,6 +67,7 @@ public class PullgunController : GenericWeapon {
 				timeSinceLastShoot = 0;
 				_fired = true;
 				_owner.setState(_owner.State_Pulling);
+				renderLine ();
 			}
 		}
 		else 
@@ -74,8 +77,16 @@ public class PullgunController : GenericWeapon {
 				_owner.setState (_owner.State_Normal);
    				_lastHook.GetComponent<HookControler> ().destoyHook ();
 				_fired = false;
+				_lineRender.enabled = false;
 			}
 		}
+	}
+
+	private void renderLine()
+	{
+		_lineRender.enabled = true;
+		_lineRender.SetPosition (0, _bulletSpawn.transform.position);
+		_lineRender.SetPosition (1, _lastHook.transform.position);
 	}
 
 }

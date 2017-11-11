@@ -5,6 +5,7 @@ using UnityEngine;
 public class PushControl : MonoBehaviour {
 
     public float pushRange, pushCD, pushHeight, pushForce;
+    public ParticleSystem _particleSystem;
     private float pushCounter;
     private int facingDirection = 1;
     private PlayerControler _controller;
@@ -35,6 +36,7 @@ public class PushControl : MonoBehaviour {
         {
             pushControl();
             _animControl.play("Push", 1);
+            _particleSystem.Emit(5);
         }
     }
 

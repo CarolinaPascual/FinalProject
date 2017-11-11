@@ -8,6 +8,7 @@ public class ShootingController : MonoBehaviour {
 
     private GenericWeapon weaponScript;
 	private GameObject equipedWeapon;
+	private GameObject _equipedWeaponModel;
     private int facingDirection;
 	private PlayerControler _controler;
 	[HideInInspector]
@@ -35,6 +36,7 @@ public class ShootingController : MonoBehaviour {
 		if (equipedWeapon != null)
 		{
 			rotateModel();
+			disapearWeapon();
 			equipedWeapon.transform.position = _gunsBones.transform.position;
 		}
         
@@ -147,8 +149,23 @@ public class ShootingController : MonoBehaviour {
         weaponScript = equipedWeapon.GetComponentInChildren<GenericWeapon>();
         weaponScript._owner = gameObject.GetComponent<PlayerControler>();
 		equipedWeapon.transform.position = _gunsBones.transform.position;
+		_equipedWeaponModel = equipedWeapon.transform.Find("Model").gameObject;
 		_hasGun = true;
     }
+
+	public void disapearWeapon()
+	{
+		if ((_controler.getState() == _controler.State_Stuned) || (_controler.isWallSlideing()))
+		{
+			_equipedWeaponModel.SetActive(false);
+			_hasGun = false;
+		}
+		else
+		{
+			_equipedWeaponModel.SetActive(true);		
+			_hasGun = true;
+		}
+	}
 
 	public void clearWeapoon()
 	{

@@ -440,6 +440,7 @@
      <Compile Include="Assets\Scritps\Input\Managers\CInputManager.cs" />
      <Compile Include="Assets\Scritps\Input\Managers\CVirtualJoystick.cs" />
      <Compile Include="Assets\Scritps\Input\Managers\KeyboardDevice.cs" />
+     <Compile Include="Assets\Scritps\Level\LevelManager.cs" />
      <Compile Include="Assets\Scritps\Level\LevelSpawner.cs" />
      <Compile Include="Assets\Scritps\Level\Module.cs" />
      <Compile Include="Assets\Scritps\Level\ReSpawner.cs" />
