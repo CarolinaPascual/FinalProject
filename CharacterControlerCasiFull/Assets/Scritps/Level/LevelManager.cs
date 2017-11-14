@@ -1,12 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour {
 
     List<PlayerControler> playerList;
-    public int firstPoints, secondPoints, thirdPoints, fourthPoints;
+    public int[] endScores;    
+    public int playersEnded;
     public LevelSpawner _levelSpawner;
+    bool matchEnd = false;
+    List<PlayerControler> playersResult;
+   public List<Text> textScoresList;
+    public Text winner;
+    public GameObject playAgainBtn, exitBtn,emptyUI;
     #region Singleton stuff
     private static LevelManager _inst;
     public static LevelManager Inst
@@ -47,10 +55,35 @@ public class LevelManager : MonoBehaviour {
     public void addToList(PlayerControler aPlayer)
     {
         playerList.Add(aPlayer);
+        textScoresList[playerList.Count - 1].gameObject.SetActive(true);
+        aPlayer.setTextScore(textScoresList[playerList.Count - 1]);
     }
 
     public int getPlayerNumber(PlayerControler aPlayer)
     {
         return playerList.IndexOf(aPlayer);
+    }
+
+    public void endPlayer(PlayerControler aPlayer)
+    {
+        aPlayer.addScore(endScores[playersEnded]);
+        playersEnded++;
+        if (playersEnded == playerList.Count)
+        {
+            endMatch();
+        }
+    }
+
+    private void endMatch()
+    {
+        matchEnd = true;
+        playersResult = playerList;
+        List<PlayerControler> SortedList = playersResult.OrderBy(o => o.getScore()).ToList();
+        winner.text = "Winner - Player " + (getPlayerNumber(SortedList[SortedList.Count-1]) +1);
+        winner.gameObject.SetActive(true);
+        playAgainBtn.SetActive(true);
+        exitBtn.SetActive(true);
+        emptyUI.SetActive(true);
+
     }
 }

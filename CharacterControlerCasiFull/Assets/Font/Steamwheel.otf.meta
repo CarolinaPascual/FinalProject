@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1a56dc8f5861b254dbf36b0e28e0ca2d
+timeCreated: 1510619939
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Steamwheel
+  fontNames:
+  - Steamwheel
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

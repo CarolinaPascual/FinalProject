@@ -481,10 +481,12 @@
     <Compile Include="Assets\Scritps\Level\ReSpawner.cs" />
     <Compile Include="Assets\Scritps\Platform\PlatformControler.cs" />
     <Compile Include="Assets\Scritps\Player\AnimationControler.cs" />
+    <Compile Include="Assets\Scritps\Player\AuxCollision.cs" />
     <Compile Include="Assets\Scritps\Player\CheatScript.cs" />
     <Compile Include="Assets\Scritps\Player\PlayerControler.cs" />
     <Compile Include="Assets\Scritps\Player\TPCamera.cs" />
     <Compile Include="Assets\Scritps\Raycasting\RaycastControler.cs" />
+    <Compile Include="Assets\Scritps\SceneChanger.cs" />
     <Compile Include="Assets\Scritps\Shooting\BaseWeapon.cs" />
     <Compile Include="Assets\Scritps\Shooting\CrateController.cs" />
     <Compile Include="Assets\Scritps\Shooting\GenericWeapon.cs" />

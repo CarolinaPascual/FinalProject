@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterControler2D))]
 public class PlayerControler : MonoBehaviour {
@@ -44,15 +45,16 @@ public class PlayerControler : MonoBehaviour {
 	[HideInInspector]
 	public int State_Pulling = 3;
 	[HideInInspector]
-	public int State_InputCursed = 4;
-
-   
+	public int State_InputCursed = 4;   
     [HideInInspector]
 	public int State_JumpCursed = 5;
     [HideInInspector]
     public int State_Dead = 6;
     [HideInInspector]
     public int State_Respawning = 7;
+    [HideInInspector]
+    public int State_End = 8;
+
 
     private float _currentStateTime = 0;
     private float _currentStateFrames = 0;
@@ -82,6 +84,8 @@ public class PlayerControler : MonoBehaviour {
     private CVirtualJoystick _myVirtualJoystick;
     private PushControl _pushControl;
     private int score;
+    private Text scoreText;
+    private string initialTextScore;
     #endregion
 
     #region MonoBehaviour Methods
@@ -94,6 +98,7 @@ public class PlayerControler : MonoBehaviour {
     void Start()
     {
          LevelManager.Inst.addToList(this);
+        addScore(0);
         _controller = GetComponent<CharacterControler2D>();
         _gravity = -(2 * _jumpHeight) / Mathf.Pow(_timeToJumpApex, 2);
         _jumpVelocity = Mathf.Abs(_gravity) * _timeToJumpApex;
@@ -311,7 +316,7 @@ public class PlayerControler : MonoBehaviour {
             _currentStateFrames = 0;
             _input.x = 0;
             _velocity.x = 0;
-            score--;
+            addScore(-1);
         }
 
         if (aState == State_Normal)
@@ -328,6 +333,16 @@ public class PlayerControler : MonoBehaviour {
             _currentStateFrames = 0;
             _input.x = 0;
             _velocity.x = 0;
+        }
+        if(aState == State_End)
+        {
+            _CurrentState = aState;
+            _currentStateTime = 0;
+            _currentStateFrames = 0;
+            _input.x = 0;
+            _velocity.x = 0;
+            LevelManager.Inst.endPlayer(this);
+
         }
     }
 
@@ -600,15 +615,34 @@ public class PlayerControler : MonoBehaviour {
         return score;
     }
 
+    public void addScore(int aScore)
+    {
+        score += aScore;
+        scoreText.text = initialTextScore + score;
+
+    }
+
+    public void setTextScore (Text aScore)
+    {
+        scoreText = aScore;
+        initialTextScore = scoreText.text;
+    }
     #endregion
 
     #region ColissionKiller
     void OnTriggerEnter2D(Collider2D other)
     {
-		if (other.tag == "Killer")
-		{
-			setState(State_Dead);
-		}
+        if (other.tag == "Killer")
+        {
+            setState(State_Dead);
+        }
+
+        if (other.tag == "End")
+        {
+            setState(State_End);
+        }
     }
     #endregion
+
+   
 }
