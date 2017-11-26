@@ -39,7 +39,7 @@ public class LevelSpawner : MonoBehaviour {
                 setModule(i);
             }
         }
-        float wheretoSpawnEnd = spawners[0] < spawners[1] ? spawners[0] : spawners[1];
+        float wheretoSpawnEnd = spawners[0] > spawners[1] ? spawners[0] : spawners[1];
         Vector3 spawnEnd = new Vector3(0, wheretoSpawnEnd, 0);
         Module newModule = Instantiate(endModule, spawnEnd, Quaternion.identity, transform);
     }

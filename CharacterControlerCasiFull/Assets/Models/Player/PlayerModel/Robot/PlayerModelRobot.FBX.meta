@@ -1,0 +1,4071 @@
+fileFormatVersion: 2
+guid: 1a405e545c205c34c8f940e72e827b93
+timeCreated: 1510619526
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Antebrazo Derecho
+    100002: Antebrazo Izquierdo
+    100004: Box001
+    100006: Box002
+    100008: Box003
+    100010: Box004
+    100012: Box005
+    100014: Box006
+    100016: Box007
+    100018: Box008
+    100020: Box009
+    100022: Box010
+    100024: Box011
+    100026: Box012
+    100028: Box013
+    100030: Box022
+    100032: Box023
+    100034: Box024
+    100036: Box025
+    100038: Box026
+    100040: Box027
+    100042: Box028
+    100044: Box029
+    100046: Box030
+    100048: Brazo derecho
+    100050: Brazo izquierdo
+    100052: Cabeza
+    100054: Cadera
+    100056: Circle001
+    100058: Circle002
+    100060: Circle003
+    100062: Circle004
+    100064: Circle005
+    100066: Codo Derecho
+    100068: Codo Izquierdo
+    100070: Cuello
+    100072: Cylinder001
+    100074: Cylinder002
+    100076: Cylinder003
+    100078: Cylinder006
+    100080: Cylinder007
+    100082: Espalda
+    100084: Group008
+    100086: Group009
+    100088: Hombro Derecho
+    100090: Hombro Izquierdo
+    100092: IK Chain001
+    100094: IK Chain002
+    100096: IK Chain003
+    100098: IK Chain004
+    100100: Indice Derecho
+    100102: Indice Izquierdo
+    100104: Indice Izquierdo 1
+    100106: Line001
+    100108: Line002
+    100110: Loft001
+    100112: Loft002
+    100114: Mano Derecha
+    100116: Mano Izquierdo
+    100118: Menique Derecho
+    100120: Muslo Derecho
+    100122: Muslo Izquierdo
+    100124: Pantorilla Izquierda
+    100126: Pantorrilla Derecha
+    100128: Pecho
+    100130: Pie Derecho
+    100132: Pie Izqierdo
+    100134: Point001
+    100136: Point002
+    100138: Point003
+    100140: Point004
+    100142: //RootNode
+    100144: Pulgar derecho
+    100146: Pulgar izqueirdo
+    100148: Rectangle001
+    100150: Rectangle002
+    100152: Rectangle003
+    100154: Rectangle004
+    100156: Rodilla Derecha
+    100158: Rodilla Izquierda
+    100160: Sphere004
+    100162: Sphere005
+    100164: Sphere015
+    100166: Sphere016
+    100168: Sphere017
+    100170: Sphere018
+    100172: Sphere019
+    100174: Sphere020
+    100176: Sphere021
+    100178: Talon Derecho
+    100180: Talon Izquierdo
+    100182: Torus001
+    100184: Torus002
+    100186: Torus003
+    100188: Torus004
+    100190: Torus005
+    100192: Torus006
+    100194: Torus007
+    100196: Torus008
+    100198: Torus009
+    100200: Torus010
+    100202: Torus011
+    100204: Torus012
+    100206: Torus013
+    100208: Torus014
+    100210: Torus015
+    100212: Torus016
+    100214: Torus017
+    100216: Torus018
+    100218: Torus019
+    100220: Torus020
+    100222: Tube001
+    100224: Tube002
+    100226: Tube005
+    100228: Tube006
+    400000: Antebrazo Derecho
+    400002: Antebrazo Izquierdo
+    400004: Box001
+    400006: Box002
+    400008: Box003
+    400010: Box004
+    400012: Box005
+    400014: Box006
+    400016: Box007
+    400018: Box008
+    400020: Box009
+    400022: Box010
+    400024: Box011
+    400026: Box012
+    400028: Box013
+    400030: Box022
+    400032: Box023
+    400034: Box024
+    400036: Box025
+    400038: Box026
+    400040: Box027
+    400042: Box028
+    400044: Box029
+    400046: Box030
+    400048: Brazo derecho
+    400050: Brazo izquierdo
+    400052: Cabeza
+    400054: Cadera
+    400056: Circle001
+    400058: Circle002
+    400060: Circle003
+    400062: Circle004
+    400064: Circle005
+    400066: Codo Derecho
+    400068: Codo Izquierdo
+    400070: Cuello
+    400072: Cylinder001
+    400074: Cylinder002
+    400076: Cylinder003
+    400078: Cylinder006
+    400080: Cylinder007
+    400082: Espalda
+    400084: Group008
+    400086: Group009
+    400088: Hombro Derecho
+    400090: Hombro Izquierdo
+    400092: IK Chain001
+    400094: IK Chain002
+    400096: IK Chain003
+    400098: IK Chain004
+    400100: Indice Derecho
+    400102: Indice Izquierdo
+    400104: Indice Izquierdo 1
+    400106: Line001
+    400108: Line002
+    400110: Loft001
+    400112: Loft002
+    400114: Mano Derecha
+    400116: Mano Izquierdo
+    400118: Menique Derecho
+    400120: Muslo Derecho
+    400122: Muslo Izquierdo
+    400124: Pantorilla Izquierda
+    400126: Pantorrilla Derecha
+    400128: Pecho
+    400130: Pie Derecho
+    400132: Pie Izqierdo
+    400134: Point001
+    400136: Point002
+    400138: Point003
+    400140: Point004
+    400142: //RootNode
+    400144: Pulgar derecho
+    400146: Pulgar izqueirdo
+    400148: Rectangle001
+    400150: Rectangle002
+    400152: Rectangle003
+    400154: Rectangle004
+    400156: Rodilla Derecha
+    400158: Rodilla Izquierda
+    400160: Sphere004
+    400162: Sphere005
+    400164: Sphere015
+    400166: Sphere016
+    400168: Sphere017
+    400170: Sphere018
+    400172: Sphere019
+    400174: Sphere020
+    400176: Sphere021
+    400178: Talon Derecho
+    400180: Talon Izquierdo
+    400182: Torus001
+    400184: Torus002
+    400186: Torus003
+    400188: Torus004
+    400190: Torus005
+    400192: Torus006
+    400194: Torus007
+    400196: Torus008
+    400198: Torus009
+    400200: Torus010
+    400202: Torus011
+    400204: Torus012
+    400206: Torus013
+    400208: Torus014
+    400210: Torus015
+    400212: Torus016
+    400214: Torus017
+    400216: Torus018
+    400218: Torus019
+    400220: Torus020
+    400222: Tube001
+    400224: Tube002
+    400226: Tube005
+    400228: Tube006
+    2300000: Antebrazo Derecho
+    2300002: Antebrazo Izquierdo
+    2300004: Box001
+    2300006: Box002
+    2300008: Box003
+    2300010: Box004
+    2300012: Box005
+    2300014: Box006
+    2300016: Box007
+    2300018: Box008
+    2300020: Box009
+    2300022: Box010
+    2300024: Box011
+    2300026: Box012
+    2300028: Box013
+    2300030: Box022
+    2300032: Box023
+    2300034: Box024
+    2300036: Box025
+    2300038: Box026
+    2300040: Box027
+    2300042: Box028
+    2300044: Box029
+    2300046: Box030
+    2300048: Brazo derecho
+    2300050: Brazo izquierdo
+    2300052: Cabeza
+    2300054: Cadera
+    2300056: Codo Derecho
+    2300058: Codo Izquierdo
+    2300060: Cuello
+    2300062: Cylinder001
+    2300064: Cylinder002
+    2300066: Cylinder003
+    2300068: Cylinder006
+    2300070: Cylinder007
+    2300072: Espalda
+    2300074: Hombro Derecho
+    2300076: Hombro Izquierdo
+    2300078: Indice Derecho
+    2300080: Indice Izquierdo
+    2300082: Indice Izquierdo 1
+    2300084: Loft001
+    2300086: Loft002
+    2300088: Mano Derecha
+    2300090: Mano Izquierdo
+    2300092: Menique Derecho
+    2300094: Muslo Derecho
+    2300096: Muslo Izquierdo
+    2300098: Pantorilla Izquierda
+    2300100: Pantorrilla Derecha
+    2300102: Pecho
+    2300104: Pie Derecho
+    2300106: Pie Izqierdo
+    2300108: Pulgar derecho
+    2300110: Pulgar izqueirdo
+    2300112: Rodilla Derecha
+    2300114: Rodilla Izquierda
+    2300116: Sphere004
+    2300118: Sphere005
+    2300120: Sphere015
+    2300122: Sphere016
+    2300124: Sphere017
+    2300126: Sphere018
+    2300128: Sphere019
+    2300130: Sphere020
+    2300132: Sphere021
+    2300134: Talon Derecho
+    2300136: Talon Izquierdo
+    2300138: Torus001
+    2300140: Torus002
+    2300142: Torus003
+    2300144: Torus004
+    2300146: Torus005
+    2300148: Torus006
+    2300150: Torus007
+    2300152: Torus008
+    2300154: Torus009
+    2300156: Torus010
+    2300158: Torus011
+    2300160: Torus012
+    2300162: Torus013
+    2300164: Torus014
+    2300166: Torus015
+    2300168: Torus016
+    2300170: Torus017
+    2300172: Torus018
+    2300174: Torus019
+    2300176: Torus020
+    2300178: Tube001
+    2300180: Tube002
+    2300182: Tube005
+    2300184: Tube006
+    3300000: Antebrazo Derecho
+    3300002: Antebrazo Izquierdo
+    3300004: Box001
+    3300006: Box002
+    3300008: Box003
+    3300010: Box004
+    3300012: Box005
+    3300014: Box006
+    3300016: Box007
+    3300018: Box008
+    3300020: Box009
+    3300022: Box010
+    3300024: Box011
+    3300026: Box012
+    3300028: Box013
+    3300030: Box022
+    3300032: Box023
+    3300034: Box024
+    3300036: Box025
+    3300038: Box026
+    3300040: Box027
+    3300042: Box028
+    3300044: Box029
+    3300046: Box030
+    3300048: Brazo derecho
+    3300050: Brazo izquierdo
+    3300052: Cabeza
+    3300054: Cadera
+    3300056: Codo Derecho
+    3300058: Codo Izquierdo
+    3300060: Cuello
+    3300062: Cylinder001
+    3300064: Cylinder002
+    3300066: Cylinder003
+    3300068: Cylinder006
+    3300070: Cylinder007
+    3300072: Espalda
+    3300074: Hombro Derecho
+    3300076: Hombro Izquierdo
+    3300078: Indice Derecho
+    3300080: Indice Izquierdo
+    3300082: Indice Izquierdo 1
+    3300084: Loft001
+    3300086: Loft002
+    3300088: Mano Derecha
+    3300090: Mano Izquierdo
+    3300092: Menique Derecho
+    3300094: Muslo Derecho
+    3300096: Muslo Izquierdo
+    3300098: Pantorilla Izquierda
+    3300100: Pantorrilla Derecha
+    3300102: Pecho
+    3300104: Pie Derecho
+    3300106: Pie Izqierdo
+    3300108: Pulgar derecho
+    3300110: Pulgar izqueirdo
+    3300112: Rodilla Derecha
+    3300114: Rodilla Izquierda
+    3300116: Sphere004
+    3300118: Sphere005
+    3300120: Sphere015
+    3300122: Sphere016
+    3300124: Sphere017
+    3300126: Sphere018
+    3300128: Sphere019
+    3300130: Sphere020
+    3300132: Sphere021
+    3300134: Talon Derecho
+    3300136: Talon Izquierdo
+    3300138: Torus001
+    3300140: Torus002
+    3300142: Torus003
+    3300144: Torus004
+    3300146: Torus005
+    3300148: Torus006
+    3300150: Torus007
+    3300152: Torus008
+    3300154: Torus009
+    3300156: Torus010
+    3300158: Torus011
+    3300160: Torus012
+    3300162: Torus013
+    3300164: Torus014
+    3300166: Torus015
+    3300168: Torus016
+    3300170: Torus017
+    3300172: Torus018
+    3300174: Torus019
+    3300176: Torus020
+    3300178: Tube001
+    3300180: Tube002
+    3300182: Tube005
+    3300184: Tube006
+    4300000: Cadera
+    4300002: Torus011
+    4300004: Torus012
+    4300006: Sphere005
+    4300008: Sphere004
+    4300010: Muslo Izquierdo
+    4300012: Pantorilla Izquierda
+    4300014: Talon Izquierdo
+    4300016: Pie Izqierdo
+    4300018: Rodilla Izquierda
+    4300020: Muslo Derecho
+    4300022: Pantorrilla Derecha
+    4300024: Talon Derecho
+    4300026: Pie Derecho
+    4300028: Rodilla Derecha
+    4300030: Espalda
+    4300032: Pecho
+    4300034: Loft002
+    4300036: Box022
+    4300038: Box028
+    4300040: Box024
+    4300042: Box025
+    4300044: Box026
+    4300046: Box029
+    4300048: Box030
+    4300050: Box027
+    4300052: Torus010
+    4300054: Hombro Izquierdo
+    4300056: Brazo izquierdo
+    4300058: Codo Izquierdo
+    4300060: Antebrazo Izquierdo
+    4300062: Mano Izquierdo
+    4300064: Indice Izquierdo
+    4300066: Pulgar izqueirdo
+    4300068: Indice Izquierdo
+    4300070: Torus009
+    4300072: Box023
+    4300074: Sphere015
+    4300076: Loft001
+    4300078: Torus008
+    4300080: Torus007
+    4300082: Sphere018
+    4300084: Sphere017
+    4300086: Sphere016
+    4300088: Sphere019
+    4300090: Sphere020
+    4300092: Sphere021
+    4300094: Cuello
+    4300096: Cabeza
+    4300098: Tube001
+    4300100: Torus001
+    4300102: Tube006
+    4300104: Torus020
+    4300106: Torus019
+    4300108: Cylinder006
+    4300110: Tube005
+    4300112: Torus018
+    4300114: Torus017
+    4300116: Torus016
+    4300118: Cylinder007
+    4300120: Cylinder001
+    4300122: Torus006
+    4300124: Cylinder002
+    4300126: Torus005
+    4300128: Cylinder003
+    4300130: Torus013
+    4300132: Torus015
+    4300134: Box001
+    4300136: Box002
+    4300138: Torus003
+    4300140: Tube002
+    4300142: Torus002
+    4300144: Box004
+    4300146: Box013
+    4300148: Box011
+    4300150: Box003
+    4300152: Box009
+    4300154: Box007
+    4300156: Box005
+    4300158: Box012
+    4300160: Box010
+    4300162: Box008
+    4300164: Box006
+    4300166: Torus004
+    4300168: Torus014
+    4300170: Hombro Derecho
+    4300172: Brazo derecho
+    4300174: Antebrazo Derecho
+    4300176: Codo Derecho
+    4300178: Mano Derecha
+    4300180: Menique Derecho
+    4300182: Indice Derecho
+    4300184: Pulgar derecho
+    7400000: IdleR
+    7400002: WalkR
+    7400004: JumpR
+    7400006: PushR
+    7400008: Idle-GunR
+    7400010: FallR
+    7400012: WallSideR
+    7400014: StunnedR
+    7400016: Aim-FrontR
+    7400018: Aim-DUpR
+    7400020: Aim-UpR
+    7400022: Aim-DDownR
+    7400024: Aim-Down
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IdleR
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkR
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpR
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PushR
+      takeName: Take 001
+      firstFrame: 66
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle-GunR
+      takeName: Take 001
+      firstFrame: 77
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FallR
+      takeName: Take 001
+      firstFrame: 106
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WallSideR
+      takeName: Take 001
+      firstFrame: 116
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StunnedR
+      takeName: Take 001
+      firstFrame: 136
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim-FrontR
+      takeName: Take 001
+      firstFrame: 161
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim-DUpR
+      takeName: Take 001
+      firstFrame: 163
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim-UpR
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim-DDownR
+      takeName: Take 001
+      firstFrame: 167
+      lastFrame: 168
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim-Down
+      takeName: Take 001
+      firstFrame: 169
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cadera
+        weight: 1
+      - path: Cadera/Espalda
+        weight: 1
+      - path: Cadera/Espalda/Pecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box022
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box023
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box024
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box025
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box026
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box027
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box028
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box029
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Box030
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box010
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box011
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box012
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Box013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Cylinder007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus013
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus014
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Torus020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube005
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Cuello/Cabeza/Tube006
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere016
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere017
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group008/Sphere018
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere019
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere020
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Group009/Sphere021
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Codo
+          Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Indice Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Menique Derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Derecho/Brazo derecho/Antebrazo Derecho/Point002/Mano
+          Derecha/Pulgar derecho
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point003
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Indice Izquierdo 1
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Antebrazo Izquierdo/Point004/Mano
+          Izquierdo/Pulgar izqueirdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Hombro Izquierdo/Brazo izquierdo/Codo Izquierdo
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft001
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Loft002
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Sphere015
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus007
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus008
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus009
+        weight: 1
+      - path: Cadera/Espalda/Pecho/Torus010
+        weight: 1
+      - path: Cadera/Muslo Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Rodilla Derecha
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho
+        weight: 1
+      - path: Cadera/Muslo Derecho/Pantorrilla Derecha/Talon Derecho/Pie Derecho
+        weight: 1
+      - path: Cadera/Muslo Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Rodilla Izquierda
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo
+        weight: 1
+      - path: Cadera/Muslo Izquierdo/Pantorilla Izquierda/Talon Izquierdo/Pie Izqierdo
+        weight: 1
+      - path: Cadera/Sphere004
+        weight: 1
+      - path: Cadera/Sphere005
+        weight: 1
+      - path: Cadera/Torus011
+        weight: 1
+      - path: Cadera/Torus012
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/IK Chain001
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/IK Chain002
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain003
+        weight: 1
+      - path: Circle004/Rectangle003
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain004
+        weight: 1
+      - path: Circle005/Rectangle004
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

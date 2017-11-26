@@ -6,14 +6,15 @@ public class StunControler : MonoBehaviour {
 
     public float _stunTime = 2;
     public Collider2D killerObject;//To ignore colition.
+	public Collider2D endGameCollider;//To ignore colition.
     public Collider2D myCollider;//To ignore colition.
+	[HideInInspector]
+	public PlayerControler _owner;
 
     void Start ()
     {
-        if (killerObject != null) 
-        {
-            Physics2D.IgnoreCollision(myCollider, killerObject, true);
-        }
+		Physics2D.IgnoreCollision(myCollider, killerObject, true);
+		Physics2D.IgnoreCollision(myCollider, endGameCollider, true);
     }
 
     void Update ()
@@ -26,7 +27,17 @@ public class StunControler : MonoBehaviour {
         PlayerControler p = collision.gameObject.GetComponent<PlayerControler>();
         if (p != null)
         {
-            p.setState(p.State_Stuned, _stunTime);
+			if (_owner != null)
+			{
+				if (p != _owner) 
+				{
+					p.setState(p.State_Stuned, _stunTime);
+				}
+			}
+			else
+			{
+				p.setState(p.State_Stuned, _stunTime);
+			}
         }
     }
 }

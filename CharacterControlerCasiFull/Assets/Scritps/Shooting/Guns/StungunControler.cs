@@ -13,6 +13,10 @@ public class StungunControler : GenericWeapon {
     private bool _fired;
     private int _fireCount;
 	private float _durationCount;
+	public LineRenderer _lineRenderer;
+	public int _lineLifeInFrames;
+	private int _lineLifeCount;
+	private bool _lineEnabled;
 
 	void Start ()
     {
@@ -32,6 +36,17 @@ public class StungunControler : GenericWeapon {
 		if (_durationCount <= 0)
 		{
 			_controler.clearWeapoon();
+		}
+
+		if (_lineEnabled) 
+		{
+			_lineLifeCount++;
+			if (_lineLifeCount > _lineLifeInFrames) 
+			{
+				_lineRenderer.enabled = false;
+				_lineEnabled = false;
+				_lineLifeCount = 0;
+			}
 		}
 
         resetColider();
@@ -60,7 +75,17 @@ public class StungunControler : GenericWeapon {
             _collider.enabled = true;
             _colliderObject.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2(direction.y,direction.x) * Mathf.Rad2Deg);
             timeSinceLastShoot = 0;
+			_collider.gameObject.GetComponent<StunControler> ()._owner = _owner;
+			renderLine (direction);
         }
     }
+
+	private void renderLine(Vector3 direction)
+	{
+		_lineRenderer.enabled = true;
+		_lineRenderer.SetPosition (0, _collider.gameObject.transform.position);
+		_lineRenderer.SetPosition (1, direction * _maxRaylength);
+		_lineEnabled = true;
+	}
 
 }

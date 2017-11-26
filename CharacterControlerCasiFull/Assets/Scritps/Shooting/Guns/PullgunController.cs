@@ -34,7 +34,7 @@ public class PullgunController : GenericWeapon {
 			}
 		}
 		hookLenghtCheck();
-
+		updateLine ();
 	}
 
 	private void hookLenghtCheck()
@@ -63,7 +63,8 @@ public class PullgunController : GenericWeapon {
 				auxBullet.GetComponent<Rigidbody2D> ().velocity = direction * bulletSpeed;
 				auxBullet.GetComponent<HookControler> ()._controler = this;
 				_lastHook = auxBullet;
-				_lastHook.GetComponent<HookControler> ()._owner = _owner.gameObject;
+				_lastHook.GetComponent<HookControler> ()._owner = _owner;
+				_lastHook.GetComponent<HookControler> ().setRot (direction);
 				timeSinceLastShoot = 0;
 				_fired = true;
 				_owner.setState(_owner.State_Pulling);
@@ -85,8 +86,23 @@ public class PullgunController : GenericWeapon {
 	private void renderLine()
 	{
 		_lineRender.enabled = true;
-		_lineRender.SetPosition (0, _bulletSpawn.transform.position);
-		_lineRender.SetPosition (1, _lastHook.transform.position);
 	}
 
+	public void disableLine()
+	{
+		_lineRender.enabled = false;
+	}
+
+	private void updateLine()
+	{ 
+		if (_lineRender.enabled)
+		{
+			_lineRender.SetPosition (0, _bulletSpawn.transform.position);
+			if (_lastHook != null)
+			{
+
+				_lineRender.SetPosition (1, _lastHook.transform.position);
+			}
+		}
+	}
 }

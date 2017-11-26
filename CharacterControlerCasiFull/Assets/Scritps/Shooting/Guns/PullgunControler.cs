@@ -33,7 +33,7 @@ public class PullgunControler : GenericWeapon {
             _currentLenght = transform.position - _lastHook.transform.position;
             if (_currentLenght.magnitude >= _maxLenght)
             {
-                _lastHook.GetComponent<PullControler>().destroyHook();
+				_lastHook.GetComponent<HookControler>().destoyHook();
                 _fired = false;
             }
             if (_hitTarget != null)
@@ -68,7 +68,8 @@ public class PullgunControler : GenericWeapon {
                 GameObject auxBullet = Instantiate(bullet, transform.position, Quaternion.identity);
                 auxBullet.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
                 _lastHook = auxBullet;
-                _lastHook.GetComponent<PullControler>()._owner = _owner;
+				_lastHook.GetComponent<HookControler>()._owner = _owner;
+				_lastHook.GetComponent<HookControler>().setRot(direction);
                 timeSinceLastShoot = 0;
             }
         }
