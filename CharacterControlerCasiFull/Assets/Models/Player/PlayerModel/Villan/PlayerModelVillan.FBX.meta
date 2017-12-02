@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d149181a4fc97bb488b386a97d7d53a5
-timeCreated: 1511995396
+guid: 2f173e6387bf5884a82dea5f90511ea1
+timeCreated: 1512208257
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -17,114 +17,164 @@ ModelImporter:
     100018: Brazo Derecho
     100020: Brazo Izquierdo
     100022: Cabeza
-    100024: Circle001
-    100026: Circle002
-    100028: Circle003
-    100030: Circle004
-    100032: Circle005
-    100034: Circle006
-    100036: Circle007
-    100038: Circle008
-    100040: Circle009
-    100042: Circle010
-    100044: Circle011
-    100046: Circle012
-    100048: Circle013
-    100050: Circle014
-    100052: Columna A
-    100054: Columna B
-    100056: Columna C
-    100058: Columna D
-    100060: Columna E
-    100062: Columna F
-    100064: Columna G
-    100066: Cylinder004
-    100068: IK Chain001
-    100070: IK Chain002
-    100072: IK Chain003
-    100074: IK Chain004
-    100076: IK Chain005
-    100078: IK Chain006
-    100080: IK Chain007
-    100082: IK Chain008
-    100084: Indice Der A
-    100086: Indice Der B
-    100088: Indice Der C
-    100090: Indice Izq A
-    100092: Indice Izq B
-    100094: Indice Izq C
-    100096: Line001
-    100098: Malla
-    100100: Mano Derecha
-    100102: Mano Izquierda
-    100104: Mayor Der A
-    100106: Mayor Der B
-    100108: Mayor Der C
-    100110: Mayor Izq A
-    100112: Mayor Izq B
-    100114: Mayor Izq C
-    100116: Menique Der A
-    100118: Menique Der B
-    100120: Menique Der C
-    100122: Menique Izq A
-    100124: Menique Izq B
-    100126: Menique Izq C
-    100128: Muslo Derecho
-    100130: Muslo Izquierdo
-    100132: Pie Der A
-    100134: Pie Der B
-    100136: Pie Izq A
-    100138: Pie Izq B
-    100140: Pierna Derecha
-    100142: Pierna Izquierda
-    100144: Point001
-    100146: Point002
-    100148: Point003
-    100150: Point004
-    100152: Point005
-    100154: Point006
-    100156: Point007
-    100158: Point008
-    100160: Point009
-    100162: Point010
-    100164: Point011
-    100166: Point012
-    100168: Point013
-    100170: Point014
-    100172: Point015
-    100174: Point016
-    100176: Point017
-    100178: Point018
-    100180: Point019
-    100182: Point020
-    100184: Point021
-    100186: Point022
-    100188: Point023
-    100190: Point024
-    100192: Point025
-    100194: Point026
-    100196: Point027
-    100198: Point028
-    100200: Point029
-    100202: Point030
-    100204: Point031
-    100206: Point032
-    100208: Point033
-    100210: Point034
-    100212: Pulgar Der A
-    100214: Pulgar Der B
-    100216: Pulgar Izq A
-    100218: Pulgar Izq B
-    100220: Rectangle001
-    100222: Rectangle002
-    100224: Rectangle003
-    100226: Rectangle004
-    100228: Rectangle005
-    100230: Rectangle006
-    100232: //RootNode
-    100234: Sphere004
-    100236: Sphere005
-    100238: Tube001
+    100024: Capa Alta A1
+    100026: Capa Alta A2
+    100028: Capa Alta B1
+    100030: Capa Alta B2
+    100032: Capa Alta C1
+    100034: Capa Alta C2
+    100036: Capa Alta D1
+    100038: Capa Alta D2
+    100040: Capa Alta E1
+    100042: Capa Alta E2
+    100044: Capa Alta F1
+    100046: Capa Alta F2
+    100048: Capa Alta G1
+    100050: Capa Alta G2
+    100052: Capa Alta H1
+    100054: Capa Alta H2
+    100056: Capa Baja A Punta
+    100058: Capa Baja A1
+    100060: Capa Baja A15
+    100062: Capa Baja A16
+    100064: Capa Baja A2
+    100066: Capa Baja A3
+    100068: Capa Baja A4
+    100070: Capa Baja B Punta
+    100072: Capa Baja B1
+    100074: Capa Baja B2
+    100076: Capa Baja B3
+    100078: Capa Baja B4
+    100080: Capa Baja B5
+    100082: Capa Baja B6
+    100084: Capa Baja C Punta
+    100086: Capa Baja C1
+    100088: Capa Baja C2
+    100090: Capa Baja C3
+    100092: Capa Baja C4
+    100094: Capa Baja C5
+    100096: Capa Baja D Punta
+    100098: Capa Baja D1
+    100100: Capa Baja D2
+    100102: Capa Baja D3
+    100104: Capa Baja D4
+    100106: Capa Baja D5
+    100108: Capa Baja E Punta
+    100110: Capa Baja E1
+    100112: Capa Baja E2
+    100114: Capa Baja E3
+    100116: Capa Baja E4
+    100118: Capa Baja E5
+    100120: CapaAbajo
+    100122: CapaArriba
+    100124: Circle001
+    100126: Circle002
+    100128: Circle003
+    100130: Circle004
+    100132: Circle005
+    100134: Circle006
+    100136: Circle007
+    100138: Circle008
+    100140: Circle009
+    100142: Circle010
+    100144: Circle011
+    100146: Circle012
+    100148: Circle013
+    100150: Circle014
+    100152: Columna A
+    100154: Columna B
+    100156: Columna C
+    100158: Columna D
+    100160: Columna E
+    100162: Columna F
+    100164: Columna G
+    100166: Cylinder004
+    100168: IK Chain001
+    100170: IK Chain002
+    100172: IK Chain003
+    100174: IK Chain004
+    100176: IK Chain005
+    100178: IK Chain006
+    100180: IK Chain007
+    100182: IK Chain008
+    100184: Indice Der A
+    100186: Indice Der B
+    100188: Indice Der C
+    100190: Indice Izq A
+    100192: Indice Izq B
+    100194: Indice Izq C
+    100196: Line001
+    100198: Malla
+    100200: Mano Derecha
+    100202: Mano Izquierda
+    100204: Mayor Der A
+    100206: Mayor Der B
+    100208: Mayor Der C
+    100210: Mayor Izq A
+    100212: Mayor Izq B
+    100214: Mayor Izq C
+    100216: Menique Der A
+    100218: Menique Der B
+    100220: Menique Der C
+    100222: Menique Izq A
+    100224: Menique Izq B
+    100226: Menique Izq C
+    100228: Muslo Derecho
+    100230: Muslo Izquierdo
+    100232: Pie Der A
+    100234: Pie Der B
+    100236: Pie Izq A
+    100238: Pie Izq B
+    100240: Pierna Derecha
+    100242: Pierna Izquierda
+    100244: Point001
+    100246: Point002
+    100248: Point003
+    100250: Point004
+    100252: Point005
+    100254: Point006
+    100256: Point007
+    100258: Point008
+    100260: Point009
+    100262: Point010
+    100264: Point011
+    100266: Point012
+    100268: Point013
+    100270: Point014
+    100272: Point015
+    100274: Point016
+    100276: Point017
+    100278: Point018
+    100280: Point019
+    100282: Point020
+    100284: Point021
+    100286: Point022
+    100288: Point023
+    100290: Point024
+    100292: Point025
+    100294: Point026
+    100296: Point027
+    100298: Point028
+    100300: Point029
+    100302: Point030
+    100304: Point031
+    100306: Point032
+    100308: Point033
+    100310: Point034
+    100312: Pulgar Der A
+    100314: Pulgar Der B
+    100316: Pulgar Izq A
+    100318: Pulgar Izq B
+    100320: Rectangle001
+    100322: Rectangle002
+    100324: Rectangle003
+    100326: Rectangle004
+    100328: Rectangle005
+    100330: Rectangle006
+    100332: Sphere004
+    100334: Sphere005
+    100336: Tube001
+    100338: //RootNode
     400000: Antebrazo Derecho
     400002: Antebrazo Izquierdo
     400004: Anular Der A
@@ -137,114 +187,164 @@ ModelImporter:
     400018: Brazo Derecho
     400020: Brazo Izquierdo
     400022: Cabeza
-    400024: Circle001
-    400026: Circle002
-    400028: Circle003
-    400030: Circle004
-    400032: Circle005
-    400034: Circle006
-    400036: Circle007
-    400038: Circle008
-    400040: Circle009
-    400042: Circle010
-    400044: Circle011
-    400046: Circle012
-    400048: Circle013
-    400050: Circle014
-    400052: Columna A
-    400054: Columna B
-    400056: Columna C
-    400058: Columna D
-    400060: Columna E
-    400062: Columna F
-    400064: Columna G
-    400066: Cylinder004
-    400068: IK Chain001
-    400070: IK Chain002
-    400072: IK Chain003
-    400074: IK Chain004
-    400076: IK Chain005
-    400078: IK Chain006
-    400080: IK Chain007
-    400082: IK Chain008
-    400084: Indice Der A
-    400086: Indice Der B
-    400088: Indice Der C
-    400090: Indice Izq A
-    400092: Indice Izq B
-    400094: Indice Izq C
-    400096: Line001
-    400098: Malla
-    400100: Mano Derecha
-    400102: Mano Izquierda
-    400104: Mayor Der A
-    400106: Mayor Der B
-    400108: Mayor Der C
-    400110: Mayor Izq A
-    400112: Mayor Izq B
-    400114: Mayor Izq C
-    400116: Menique Der A
-    400118: Menique Der B
-    400120: Menique Der C
-    400122: Menique Izq A
-    400124: Menique Izq B
-    400126: Menique Izq C
-    400128: Muslo Derecho
-    400130: Muslo Izquierdo
-    400132: Pie Der A
-    400134: Pie Der B
-    400136: Pie Izq A
-    400138: Pie Izq B
-    400140: Pierna Derecha
-    400142: Pierna Izquierda
-    400144: Point001
-    400146: Point002
-    400148: Point003
-    400150: Point004
-    400152: Point005
-    400154: Point006
-    400156: Point007
-    400158: Point008
-    400160: Point009
-    400162: Point010
-    400164: Point011
-    400166: Point012
-    400168: Point013
-    400170: Point014
-    400172: Point015
-    400174: Point016
-    400176: Point017
-    400178: Point018
-    400180: Point019
-    400182: Point020
-    400184: Point021
-    400186: Point022
-    400188: Point023
-    400190: Point024
-    400192: Point025
-    400194: Point026
-    400196: Point027
-    400198: Point028
-    400200: Point029
-    400202: Point030
-    400204: Point031
-    400206: Point032
-    400208: Point033
-    400210: Point034
-    400212: Pulgar Der A
-    400214: Pulgar Der B
-    400216: Pulgar Izq A
-    400218: Pulgar Izq B
-    400220: Rectangle001
-    400222: Rectangle002
-    400224: Rectangle003
-    400226: Rectangle004
-    400228: Rectangle005
-    400230: Rectangle006
-    400232: //RootNode
-    400234: Sphere004
-    400236: Sphere005
-    400238: Tube001
+    400024: Capa Alta A1
+    400026: Capa Alta A2
+    400028: Capa Alta B1
+    400030: Capa Alta B2
+    400032: Capa Alta C1
+    400034: Capa Alta C2
+    400036: Capa Alta D1
+    400038: Capa Alta D2
+    400040: Capa Alta E1
+    400042: Capa Alta E2
+    400044: Capa Alta F1
+    400046: Capa Alta F2
+    400048: Capa Alta G1
+    400050: Capa Alta G2
+    400052: Capa Alta H1
+    400054: Capa Alta H2
+    400056: Capa Baja A Punta
+    400058: Capa Baja A1
+    400060: Capa Baja A15
+    400062: Capa Baja A16
+    400064: Capa Baja A2
+    400066: Capa Baja A3
+    400068: Capa Baja A4
+    400070: Capa Baja B Punta
+    400072: Capa Baja B1
+    400074: Capa Baja B2
+    400076: Capa Baja B3
+    400078: Capa Baja B4
+    400080: Capa Baja B5
+    400082: Capa Baja B6
+    400084: Capa Baja C Punta
+    400086: Capa Baja C1
+    400088: Capa Baja C2
+    400090: Capa Baja C3
+    400092: Capa Baja C4
+    400094: Capa Baja C5
+    400096: Capa Baja D Punta
+    400098: Capa Baja D1
+    400100: Capa Baja D2
+    400102: Capa Baja D3
+    400104: Capa Baja D4
+    400106: Capa Baja D5
+    400108: Capa Baja E Punta
+    400110: Capa Baja E1
+    400112: Capa Baja E2
+    400114: Capa Baja E3
+    400116: Capa Baja E4
+    400118: Capa Baja E5
+    400120: CapaAbajo
+    400122: CapaArriba
+    400124: Circle001
+    400126: Circle002
+    400128: Circle003
+    400130: Circle004
+    400132: Circle005
+    400134: Circle006
+    400136: Circle007
+    400138: Circle008
+    400140: Circle009
+    400142: Circle010
+    400144: Circle011
+    400146: Circle012
+    400148: Circle013
+    400150: Circle014
+    400152: Columna A
+    400154: Columna B
+    400156: Columna C
+    400158: Columna D
+    400160: Columna E
+    400162: Columna F
+    400164: Columna G
+    400166: Cylinder004
+    400168: IK Chain001
+    400170: IK Chain002
+    400172: IK Chain003
+    400174: IK Chain004
+    400176: IK Chain005
+    400178: IK Chain006
+    400180: IK Chain007
+    400182: IK Chain008
+    400184: Indice Der A
+    400186: Indice Der B
+    400188: Indice Der C
+    400190: Indice Izq A
+    400192: Indice Izq B
+    400194: Indice Izq C
+    400196: Line001
+    400198: Malla
+    400200: Mano Derecha
+    400202: Mano Izquierda
+    400204: Mayor Der A
+    400206: Mayor Der B
+    400208: Mayor Der C
+    400210: Mayor Izq A
+    400212: Mayor Izq B
+    400214: Mayor Izq C
+    400216: Menique Der A
+    400218: Menique Der B
+    400220: Menique Der C
+    400222: Menique Izq A
+    400224: Menique Izq B
+    400226: Menique Izq C
+    400228: Muslo Derecho
+    400230: Muslo Izquierdo
+    400232: Pie Der A
+    400234: Pie Der B
+    400236: Pie Izq A
+    400238: Pie Izq B
+    400240: Pierna Derecha
+    400242: Pierna Izquierda
+    400244: Point001
+    400246: Point002
+    400248: Point003
+    400250: Point004
+    400252: Point005
+    400254: Point006
+    400256: Point007
+    400258: Point008
+    400260: Point009
+    400262: Point010
+    400264: Point011
+    400266: Point012
+    400268: Point013
+    400270: Point014
+    400272: Point015
+    400274: Point016
+    400276: Point017
+    400278: Point018
+    400280: Point019
+    400282: Point020
+    400284: Point021
+    400286: Point022
+    400288: Point023
+    400290: Point024
+    400292: Point025
+    400294: Point026
+    400296: Point027
+    400298: Point028
+    400300: Point029
+    400302: Point030
+    400304: Point031
+    400306: Point032
+    400308: Point033
+    400310: Point034
+    400312: Pulgar Der A
+    400314: Pulgar Der B
+    400316: Pulgar Izq A
+    400318: Pulgar Izq B
+    400320: Rectangle001
+    400322: Rectangle002
+    400324: Rectangle003
+    400326: Rectangle004
+    400328: Rectangle005
+    400330: Rectangle006
+    400332: Sphere004
+    400334: Sphere005
+    400336: Tube001
+    400338: //RootNode
     2300000: aro
     2300002: Cylinder004
     2300004: Sphere004
@@ -256,26 +356,30 @@ ModelImporter:
     3300006: Sphere005
     3300008: Tube001
     4300000: Malla
-    4300002: aro
+    4300002: CapaAbajo
     4300004: Sphere004
     4300006: Sphere005
     4300008: Tube001
     4300010: Cylinder004
+    4300012: aro
+    4300014: CapaArriba
     7400000: IdleV
     7400002: WalkV
-    7400004: JumpV
-    7400006: PushV
-    7400008: Idle-GunV
-    7400010: FallV
-    7400012: WallSlideV
-    7400014: StunnedV
-    7400016: Aim-FrontV
-    7400018: Aim-DUpV
-    7400020: Aim-UpV
-    7400022: Aim-DDownV
-    7400024: Aim-DownV
+    7400004: PushV
+    7400006: Idle-GunV
+    7400008: FallV
+    7400010: WallSlideV
+    7400012: StunnedV
+    7400014: Aim-FrontV
+    7400016: Aim-DUpV
+    7400018: Aim-UpV
+    7400020: Aim-DDownV
+    7400022: Aim-DownV
+    7400024: JumpV
     9500000: //RootNode
-    13700000: Malla
+    13700000: CapaAbajo
+    13700002: CapaArriba
+    13700004: Malla
   materials:
     importMaterials: 1
     materialName: 0
@@ -326,7 +430,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -486,6 +592,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -632,7 +886,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -793,311 +1049,153 @@ ModelImporter:
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Sphere004
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Sphere005
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Tube001
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Tube001/Cylinder004
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
         weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Columna
-          G
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
         weight: 1
-      - path: Columna A/Muslo Derecho
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
         weight: 1
-      - path: Columna A/Muslo Derecho/Pierna Derecha
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
         weight: 1
-      - path: Columna A/Muslo Derecho/Pierna Derecha/Pie Der A
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
         weight: 1
-      - path: Columna A/Muslo Derecho/Pierna Derecha/Pie Der A/Pie Der B
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
         weight: 1
-      - path: Columna A/Muslo Derecho/Pierna Derecha/Pie Der A/Pie Der B/Point033
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
         weight: 1
-      - path: Columna A/Muslo Izquierdo
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
         weight: 1
-      - path: Columna A/Muslo Izquierdo/Pierna Izquierda
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
         weight: 1
-      - path: Columna A/Muslo Izquierdo/Pierna Izquierda/Pie Izq A
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
         weight: 1
-      - path: Columna A/Muslo Izquierdo/Pierna Izquierda/Pie Izq A/Pie Izq B
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
         weight: 1
-      - path: Columna A/Muslo Izquierdo/Pierna Izquierda/Pie Izq A/Pie Izq B/Point034
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
         weight: 1
-      - path: Line001
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
         weight: 1
-      - path: Malla
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
         weight: 1
-      - path: Point008
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
         weight: 1
-      - path: Point008/Point004
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
         weight: 1
-      - path: Point008/Point004/Point021
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
         weight: 1
-      - path: Point009
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
         weight: 1
-      - path: Point009/Point003
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
         weight: 1
-      - path: Point009/Point003/Point020
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
         weight: 1
-      - path: Point010
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
         weight: 1
-      - path: Point010/Point023
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
         weight: 1
-      - path: Point011
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
         weight: 1
-      - path: Point012
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
         weight: 1
-      - path: Point012/Point024
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
         weight: 1
-      - path: Point012/Point025
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
         weight: 1
-      - path: Point013
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
         weight: 1
-      - path: Point013/Point026
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
         weight: 1
-      - path: Point014
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
         weight: 1
-      - path: Point014/Point027
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
         weight: 1
-      - path: Point015
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
         weight: 1
-      - path: Point015/Point028
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
         weight: 1
-      - path: Point016
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
         weight: 1
-      - path: Point017
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
         weight: 1
-      - path: Rectangle001
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
         weight: 1
-      - path: Rectangle002
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
         weight: 1
-      - path: Rectangle003
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
         weight: 1
-      - path: Rectangle003/Circle012
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
         weight: 1
-      - path: Rectangle003/Circle012/Circle008
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
         weight: 1
-      - path: Rectangle003/Circle012/Circle008/Circle009
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
         weight: 1
-      - path: Rectangle003/Circle012/Circle008/Circle009/IK Chain003
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
         weight: 1
-      - path: Rectangle003/Circle012/Circle008/IK Chain005
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
         weight: 1
-      - path: Rectangle003/Circle012/IK Chain006
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
         weight: 1
-      - path: Rectangle003/Rectangle005
-        weight: 1
-      - path: Rectangle004
-        weight: 1
-      - path: Rectangle004/Circle013
-        weight: 1
-      - path: Rectangle004/Circle013/Circle011
-        weight: 1
-      - path: Rectangle004/Circle013/Circle011/Circle010
-        weight: 1
-      - path: Rectangle004/Circle013/Circle011/Circle010/IK Chain004
-        weight: 1
-      - path: Rectangle004/Circle013/Circle011/IK Chain007
-        weight: 1
-      - path: Rectangle004/Circle013/IK Chain008
-        weight: 1
-      - path: Rectangle004/Rectangle006
-        weight: 1
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: JumpV
-      takeName: Take 001
-      firstFrame: 61
-      lastFrame: 65
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: aro
-        weight: 1
-      - path: Circle004
-        weight: 1
-      - path: Circle004/IK Chain001
-        weight: 1
-      - path: Circle005
-        weight: 1
-      - path: Circle005/IK Chain002
-        weight: 1
-      - path: Circle007
-        weight: 1
-      - path: Circle014
-        weight: 1
-      - path: Circle014/Circle001
-        weight: 1
-      - path: Circle014/Circle001/Point002
-        weight: 1
-      - path: Circle014/Circle001/Point002/Point006
-        weight: 1
-      - path: Circle014/Circle001/Point002/Point019
-        weight: 1
-      - path: Circle014/Circle002
-        weight: 1
-      - path: Circle014/Circle002/Point001
-        weight: 1
-      - path: Circle014/Circle002/Point001/Point018
-        weight: 1
-      - path: Circle014/Circle003
-        weight: 1
-      - path: Circle014/Circle003/Point005
-        weight: 1
-      - path: Circle014/Circle003/Point005/Point007
-        weight: 1
-      - path: Circle014/Circle003/Point005/Point022
-        weight: 1
-      - path: Columna A
-        weight: 1
-      - path: Columna A/Columna B
-        weight: 1
-      - path: Columna A/Columna B/Columna C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point029
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Anular Der A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Anular Der A/Anular Der B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Anular Der A/Anular Der B/Anular Der C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Indice Der A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Indice Der A/Indice Der B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Indice Der A/Indice Der B/Indice Der C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Mayor Der A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Mayor Der A/Mayor Der B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Mayor Der A/Mayor Der B/Mayor Der C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Menique Der A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Menique Der A/Menique Der B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Menique Der A/Menique Der B/Menique Der C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Pulgar Der A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
-          Derecho/Point031/Mano Derecha/Pulgar Der A/Pulgar Der B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point030
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Anular Izq A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Anular Izq A/Anular Izq B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Anular Izq A/Anular Izq B/Anular Izq C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Indice Izq A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Indice Izq A/Indice Izq B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Indice Izq A/Indice Izq B/Indice Izq C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Mayor Izq A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Mayor Izq A/Mayor Izq B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Mayor Izq A/Mayor Izq B/Mayor Izq C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Menique Izq A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Menique Izq A/Menique Izq B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Menique Izq A/Menique Izq B/Menique Izq
-          C
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Pulgar Izq A
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
-          Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
-        weight: 1
-      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -1228,7 +1326,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1244,7 +1342,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -1404,6 +1504,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -1550,7 +1798,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -1710,6 +1960,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -1856,7 +2254,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -2016,6 +2416,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -2162,7 +2710,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -2322,6 +2872,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -2468,7 +3166,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -2628,6 +3328,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -2774,7 +3622,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -2934,6 +3784,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -3080,7 +4078,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -3240,6 +4240,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -3386,7 +4534,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -3546,6 +4696,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -3692,7 +4990,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -3852,6 +5152,154 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
@@ -3998,7 +5446,9 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: aro
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
         weight: 1
       - path: Circle004
         weight: 1
@@ -4158,6 +5608,610 @@ ModelImporter:
           Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Sphere004
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Sphere005
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Tube001
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006/Cabeza/Tube001/Cylinder004
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Columna
+          G
+        weight: 1
+      - path: Columna A/Muslo Derecho
+        weight: 1
+      - path: Columna A/Muslo Derecho/Pierna Derecha
+        weight: 1
+      - path: Columna A/Muslo Derecho/Pierna Derecha/Pie Der A
+        weight: 1
+      - path: Columna A/Muslo Derecho/Pierna Derecha/Pie Der A/Pie Der B
+        weight: 1
+      - path: Columna A/Muslo Derecho/Pierna Derecha/Pie Der A/Pie Der B/Point033
+        weight: 1
+      - path: Columna A/Muslo Izquierdo
+        weight: 1
+      - path: Columna A/Muslo Izquierdo/Pierna Izquierda
+        weight: 1
+      - path: Columna A/Muslo Izquierdo/Pierna Izquierda/Pie Izq A
+        weight: 1
+      - path: Columna A/Muslo Izquierdo/Pierna Izquierda/Pie Izq A/Pie Izq B
+        weight: 1
+      - path: Columna A/Muslo Izquierdo/Pierna Izquierda/Pie Izq A/Pie Izq B/Point034
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Malla
+        weight: 1
+      - path: Point008
+        weight: 1
+      - path: Point008/Point004
+        weight: 1
+      - path: Point008/Point004/Point021
+        weight: 1
+      - path: Point009
+        weight: 1
+      - path: Point009/Point003
+        weight: 1
+      - path: Point009/Point003/Point020
+        weight: 1
+      - path: Point010
+        weight: 1
+      - path: Point010/Point023
+        weight: 1
+      - path: Point011
+        weight: 1
+      - path: Point012
+        weight: 1
+      - path: Point012/Point024
+        weight: 1
+      - path: Point012/Point025
+        weight: 1
+      - path: Point013
+        weight: 1
+      - path: Point013/Point026
+        weight: 1
+      - path: Point014
+        weight: 1
+      - path: Point014/Point027
+        weight: 1
+      - path: Point015
+        weight: 1
+      - path: Point015/Point028
+        weight: 1
+      - path: Point016
+        weight: 1
+      - path: Point017
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      - path: Rectangle003
+        weight: 1
+      - path: Rectangle003/Circle012
+        weight: 1
+      - path: Rectangle003/Circle012/Circle008
+        weight: 1
+      - path: Rectangle003/Circle012/Circle008/Circle009
+        weight: 1
+      - path: Rectangle003/Circle012/Circle008/Circle009/IK Chain003
+        weight: 1
+      - path: Rectangle003/Circle012/Circle008/IK Chain005
+        weight: 1
+      - path: Rectangle003/Circle012/IK Chain006
+        weight: 1
+      - path: Rectangle003/Rectangle005
+        weight: 1
+      - path: Rectangle004
+        weight: 1
+      - path: Rectangle004/Circle013
+        weight: 1
+      - path: Rectangle004/Circle013/Circle011
+        weight: 1
+      - path: Rectangle004/Circle013/Circle011/Circle010
+        weight: 1
+      - path: Rectangle004/Circle013/Circle011/Circle010/IK Chain004
+        weight: 1
+      - path: Rectangle004/Circle013/Circle011/IK Chain007
+        weight: 1
+      - path: Rectangle004/Circle013/IK Chain008
+        weight: 1
+      - path: Rectangle004/Rectangle006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpV
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CapaAbajo
+        weight: 1
+      - path: CapaArriba
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/IK Chain001
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain002
+        weight: 1
+      - path: Circle007
+        weight: 1
+      - path: Circle014
+        weight: 1
+      - path: Circle014/Circle001
+        weight: 1
+      - path: Circle014/Circle001/Point002
+        weight: 1
+      - path: Circle014/Circle001/Point002/Point006
+        weight: 1
+      - path: Circle014/Circle001/Point002/Point019
+        weight: 1
+      - path: Circle014/Circle002
+        weight: 1
+      - path: Circle014/Circle002/Point001
+        weight: 1
+      - path: Circle014/Circle002/Point001/Point018
+        weight: 1
+      - path: Circle014/Circle003
+        weight: 1
+      - path: Circle014/Circle003/Point005
+        weight: 1
+      - path: Circle014/Circle003/Point005/Point007
+        weight: 1
+      - path: Circle014/Circle003/Point005/Point022
+        weight: 1
+      - path: Columna A
+        weight: 1
+      - path: Columna A/Columna B
+        weight: 1
+      - path: Columna A/Columna B/Columna C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point029
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Anular Der A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Anular Der A/Anular Der B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Anular Der A/Anular Der B/Anular Der C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Indice Der A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Indice Der A/Indice Der B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Indice Der A/Indice Der B/Indice Der C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Mayor Der A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Mayor Der A/Mayor Der B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Mayor Der A/Mayor Der B/Mayor Der C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Menique Der A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Menique Der A/Menique Der B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Menique Der A/Menique Der B/Menique Der C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Pulgar Der A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Derecho/Antebrazo
+          Derecho/Point031/Mano Derecha/Pulgar Der A/Pulgar Der B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point030
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Anular Izq A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Anular Izq A/Anular Izq B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Anular Izq A/Anular Izq B/Anular Izq C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Indice Izq A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Indice Izq A/Indice Izq B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Indice Izq A/Indice Izq B/Indice Izq C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Mayor Izq A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Mayor Izq A/Mayor Izq B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Mayor Izq A/Mayor Izq B/Mayor Izq C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Menique Izq A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Menique Izq A/Menique Izq B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Menique Izq A/Menique Izq B/Menique Izq
+          C
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Pulgar Izq A
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Brazo Izquierdo/Antebrazo
+          Izquierdo/Point032/Mano Izquierda/Pulgar Izq A/Pulgar Izq B
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/aro
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          A1/Capa Alta A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          B1/Capa Alta B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          C1/Capa Alta C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          D1/Capa Alta D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          E1/Capa Alta E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          F1/Capa Alta F2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          G1/Capa Alta G2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Alta
+          H1/Capa Alta H2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          A1/Capa Baja A2/Capa Baja A3/Capa Baja A4/Capa Baja A15/Capa Baja A16/Capa
+          Baja A Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          B1/Capa Baja B2/Capa Baja B3/Capa Baja B4/Capa Baja B5/Capa Baja B6/Capa
+          Baja B Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          C1/Capa Baja C2/Capa Baja C3/Capa Baja C4/Capa Baja C5/Capa Baja C Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          D1/Capa Baja D2/Capa Baja D3/Capa Baja D4/Capa Baja D5/Capa Baja D Punta
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5
+        weight: 1
+      - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Capa Baja
+          E1/Capa Baja E2/Capa Baja E3/Capa Baja E4/Capa Baja E5/Capa Baja E Punta
         weight: 1
       - path: Columna A/Columna B/Columna C/Columna D/Columna E/Columna F/Circle006
         weight: 1
