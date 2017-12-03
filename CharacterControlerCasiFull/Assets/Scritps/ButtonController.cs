@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour {
 
-	public Material hoverMat;
-	private Vector3 _moveVector;
-	private Material origianlMat;
-	private MeshRenderer meshR;
-	private bool _clicked = false;
+    public Animator _anim;
+    public string _pressedState;
+    public Material _hoverMaterial;
+    public Material _normalMaterial;
+    private MeshRenderer _meshRenderer;
+
 	void Start () 
 	{
-		meshR = GetComponent<MeshRenderer> ();
-		origianlMat = meshR.material;
-	}
+        _meshRenderer = GetComponent<MeshRenderer>();
+    }
 		
 	void Update () 
 	{
@@ -22,28 +22,22 @@ public class ButtonController : MonoBehaviour {
 		
 	void OnMouseEnter()
 	{
-		meshR.material = hoverMat;
-	}
+        _meshRenderer.material.color = _hoverMaterial.color;
+    }
 
 	void OnMouseExit()
-	{
-		meshR.material = origianlMat;
-	}
+    {
+        _meshRenderer.material.color = _normalMaterial.color;
+        _anim.Play("None");
+    }
 
 	void OnMouseDown()
 	{
-		_clicked = true;
-		_moveVector.z =- 0.5f;
-		transform.Translate (_moveVector);
-	}
+        _anim.Play(_pressedState);
+    }
 
 	void OnMouseUp()
 	{
-		if (_clicked)
-		{
-			_clicked = false;
-			_moveVector.z =+ 0.5f;
-			transform.Translate (_moveVector);
-		}
-	}
+        _anim.Play("None");
+    }
 }
