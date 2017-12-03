@@ -20,7 +20,6 @@ public class ReSpawner : MonoBehaviour {
 
     private List<GameObject> placesToSpawn;
 
-    // Use this for initialization
     void Start () {
         placesToSpawn = new List<GameObject>();
 	}
@@ -33,7 +32,7 @@ public class ReSpawner : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "ReSpawn")
+        if(other.tag == "Respawner")
         {
             placesToSpawn.Add(other.gameObject);
             Debug.Log("Add");
@@ -43,7 +42,7 @@ public class ReSpawner : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
     {
-        if (other.tag == "ReSpawn")
+        if (other.tag == "Respawner")
         {
             placesToSpawn.Remove(other.gameObject);
             Debug.Log("Remove");

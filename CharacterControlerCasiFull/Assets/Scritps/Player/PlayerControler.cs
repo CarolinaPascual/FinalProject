@@ -93,7 +93,9 @@ public class PlayerControler : MonoBehaviour {
 
     private void Awake()
     {
-        _myVirtualJoystick = new CVirtualJoystick();        
+       
+        _myVirtualJoystick = new CVirtualJoystick();
+        
     }
 
     void Start()
@@ -596,6 +598,11 @@ public class PlayerControler : MonoBehaviour {
     public CVirtualJoystick getVirtualJoystick()
     {
         return _myVirtualJoystick;
+    }
+
+    public void setVirtualJoystick(CVirtualJoystick virtualJoystick)
+    {
+        _myVirtualJoystick = virtualJoystick;
     }
 
     public Vector2 getVelocityVector()

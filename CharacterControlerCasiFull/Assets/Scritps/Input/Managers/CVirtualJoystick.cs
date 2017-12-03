@@ -9,6 +9,7 @@ public class CVirtualJoystick : MonoBehaviour {
     private Vector2 _clampedVector;
     private bool _deviceConnected = true;
     public float _clampDeadZone = 0.5f;
+    public int _joystickNumber;
     private string _lastDeviceName;
 
     #region Sticks
@@ -209,7 +210,8 @@ public class CVirtualJoystick : MonoBehaviour {
 		if (_atachedDevice != null)
 		{
 			_lastDeviceName = _atachedDevice.Name;
-			InputManager.OnDeviceDetached += deviceDetached;
+            _joystickNumber = InputManager.Devices.IndexOf(_atachedDevice) + 1;
+            InputManager.OnDeviceDetached += deviceDetached;
 			InputManager.OnDeviceAttached += deviceAttached;
 		}
     }
@@ -222,6 +224,10 @@ public class CVirtualJoystick : MonoBehaviour {
         {
             _deviceConnected = false;
         }
+        else
+        {
+            _joystickNumber = InputManager.Devices.IndexOf(_atachedDevice) + 1;
+        }
     }
 
     private void deviceAttached(InputDevice a)
@@ -230,6 +236,7 @@ public class CVirtualJoystick : MonoBehaviour {
         {
             _atachedDevice = a;
             _deviceConnected = true;
+            _joystickNumber = InputManager.Devices.IndexOf(_atachedDevice) + 1;
         }
     }
 
@@ -238,5 +245,9 @@ public class CVirtualJoystick : MonoBehaviour {
 		return _atachedDevice;
 	}
 
+    public void setAtachedDevice(InputDevice inputDevice)
+    {
+        _atachedDevice = inputDevice;
+    }
     #endregion
 }

@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 281ad05f307bc644782a07555fb278fb
+timeCreated: 1512251820
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cylinder002
+    100002: Cylinder003
+    100004: Cylinder004
+    100006: Cylinder005
+    100008: Cylinder006
+    100010: Cylinder007
+    100012: Cylinder008
+    100014: Cylinder009
+    100016: Cylinder010
+    100018: Cylinder011
+    100020: Cylinder012
+    100022: Cylinder013
+    100024: Cylinder014
+    100026: Cylinder015
+    100028: Cylinder016
+    100030: Cylinder017
+    100032: Cylinder018
+    100034: Cylinder019
+    100036: Cylinder020
+    100038: Cylinder021
+    100040: Cylinder022
+    100042: Cylinder023
+    100044: Cylinder024
+    100046: Cylinder025
+    100048: //RootNode
+    100050: Group002
+    100052: Group003
+    100054: Group004
+    100056: Group005
+    100058: Group006
+    100060: Omni001
+    100062: Omni002
+    100064: Omni003
+    100066: Particle View 001
+    100068: PhysCamera001
+    100070: PhysCamera001.Target
+    400000: Cylinder002
+    400002: Cylinder003
+    400004: Cylinder004
+    400006: Cylinder005
+    400008: Cylinder006
+    400010: Cylinder007
+    400012: Cylinder008
+    400014: Cylinder009
+    400016: Cylinder010
+    400018: Cylinder011
+    400020: Cylinder012
+    400022: Cylinder013
+    400024: Cylinder014
+    400026: Cylinder015
+    400028: Cylinder016
+    400030: Cylinder017
+    400032: Cylinder018
+    400034: Cylinder019
+    400036: Cylinder020
+    400038: Cylinder021
+    400040: Cylinder022
+    400042: Cylinder023
+    400044: Cylinder024
+    400046: Cylinder025
+    400048: //RootNode
+    400050: Group002
+    400052: Group003
+    400054: Group004
+    400056: Group005
+    400058: Group006
+    400060: Omni001
+    400062: Omni002
+    400064: Omni003
+    400066: Particle View 001
+    400068: PhysCamera001
+    400070: PhysCamera001.Target
+    2300000: Cylinder002
+    2300002: Cylinder003
+    2300004: Cylinder004
+    2300006: Cylinder005
+    2300008: Cylinder006
+    2300010: Cylinder007
+    2300012: Cylinder008
+    2300014: Cylinder009
+    2300016: Cylinder010
+    2300018: Cylinder011
+    2300020: Cylinder012
+    2300022: Cylinder013
+    2300024: Cylinder014
+    2300026: Cylinder015
+    2300028: Cylinder016
+    2300030: Cylinder017
+    2300032: Cylinder018
+    2300034: Cylinder019
+    2300036: Cylinder020
+    2300038: Cylinder021
+    2300040: Cylinder022
+    2300042: Cylinder023
+    2300044: Cylinder024
+    2300046: Cylinder025
+    3300000: Cylinder002
+    3300002: Cylinder003
+    3300004: Cylinder004
+    3300006: Cylinder005
+    3300008: Cylinder006
+    3300010: Cylinder007
+    3300012: Cylinder008
+    3300014: Cylinder009
+    3300016: Cylinder010
+    3300018: Cylinder011
+    3300020: Cylinder012
+    3300022: Cylinder013
+    3300024: Cylinder014
+    3300026: Cylinder015
+    3300028: Cylinder016
+    3300030: Cylinder017
+    3300032: Cylinder018
+    3300034: Cylinder019
+    3300036: Cylinder020
+    3300038: Cylinder021
+    3300040: Cylinder022
+    3300042: Cylinder023
+    3300044: Cylinder024
+    3300046: Cylinder025
+    4300000: Cylinder003
+    4300002: Cylinder004
+    4300004: Cylinder006
+    4300006: Cylinder007
+    4300008: Cylinder002
+    4300010: Cylinder005
+    4300012: Cylinder010
+    4300014: Cylinder008
+    4300016: Cylinder009
+    4300018: Cylinder013
+    4300020: Cylinder011
+    4300022: Cylinder012
+    4300024: Cylinder014
+    4300026: Cylinder015
+    4300028: Cylinder016
+    4300030: Cylinder017
+    4300032: Cylinder018
+    4300034: Cylinder019
+    4300036: Cylinder021
+    4300038: Cylinder020
+    4300040: Cylinder022
+    4300042: Cylinder023
+    4300044: Cylinder024
+    4300046: Cylinder025
+    7400000: EngranajeD_Andando
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EngranajeD_Andando
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder002
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Cylinder006
+        weight: 1
+      - path: Cylinder007
+        weight: 1
+      - path: Cylinder010
+        weight: 1
+      - path: Cylinder013
+        weight: 1
+      - path: Cylinder014
+        weight: 1
+      - path: Cylinder015
+        weight: 1
+      - path: Cylinder016
+        weight: 1
+      - path: Cylinder017
+        weight: 1
+      - path: Cylinder021
+        weight: 1
+      - path: Cylinder023
+        weight: 1
+      - path: Cylinder024
+        weight: 1
+      - path: Cylinder025
+        weight: 1
+      - path: Group002
+        weight: 1
+      - path: Group002/Cylinder003
+        weight: 1
+      - path: Group002/Cylinder004
+        weight: 1
+      - path: Group003
+        weight: 1
+      - path: Group003/Cylinder008
+        weight: 1
+      - path: Group003/Cylinder009
+        weight: 1
+      - path: Group004
+        weight: 1
+      - path: Group004/Cylinder011
+        weight: 1
+      - path: Group004/Cylinder012
+        weight: 1
+      - path: Group005
+        weight: 1
+      - path: Group005/Cylinder018
+        weight: 1
+      - path: Group005/Cylinder019
+        weight: 1
+      - path: Group006
+        weight: 1
+      - path: Group006/Cylinder020
+        weight: 1
+      - path: Group006/Cylinder022
+        weight: 1
+      - path: Omni001
+        weight: 1
+      - path: Omni002
+        weight: 1
+      - path: Omni003
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: PhysCamera001
+        weight: 1
+      - path: PhysCamera001.Target
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

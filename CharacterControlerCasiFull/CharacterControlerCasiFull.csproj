@@ -473,9 +473,12 @@
     <Compile Include="Assets\Scritps\Input\Managers\CInputManager.cs" />
     <Compile Include="Assets\Scritps\Input\Managers\CVirtualJoystick.cs" />
     <Compile Include="Assets\Scritps\Input\Managers\KeyboardDevice.cs" />
+    <Compile Include="Assets\Scritps\Level\CharacterSelector.cs" />
     <Compile Include="Assets\Scritps\Level\LevelManager.cs" />
     <Compile Include="Assets\Scritps\Level\LevelSpawner.cs" />
     <Compile Include="Assets\Scritps\Level\Module.cs" />
+    <Compile Include="Assets\Scritps\Level\PlayerCharacterSelector.cs" />
+    <Compile Include="Assets\Scritps\Level\PlayerSpawner.cs" />
     <Compile Include="Assets\Scritps\Level\ReSpawner.cs" />
     <Compile Include="Assets\Scritps\Level\SceneChanger.cs" />
     <Compile Include="Assets\Scritps\Platform\PlatformControler.cs" />

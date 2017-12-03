@@ -7,14 +7,15 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour {
 
     List<PlayerControler> playerList;
+    List<PlayerControler> playersResult;
+    public List<Text> textScoresList;
     public int[] endScores;    
     public int playersEnded;
     public LevelSpawner _levelSpawner;
     bool matchEnd = false;
-    List<PlayerControler> playersResult;
-   public List<Text> textScoresList;
     public Text winner;
     public GameObject playAgainBtn, exitBtn,emptyUI;
+
     #region Singleton stuff
     private static LevelManager _inst;
     public static LevelManager Inst
@@ -27,6 +28,7 @@ public class LevelManager : MonoBehaviour {
         }
     }
     #endregion
+
     void Awake()
     {
         init();
@@ -84,6 +86,5 @@ public class LevelManager : MonoBehaviour {
         playAgainBtn.SetActive(true);
         exitBtn.SetActive(true);
         emptyUI.SetActive(true);
-
     }
 }

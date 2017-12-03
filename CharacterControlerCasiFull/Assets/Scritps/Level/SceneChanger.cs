@@ -5,18 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour {
 
-public	void goToPlayScene()
+    public static SceneChanger inst;
+    [HideInInspector]
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+        inst = this;
+    }
+
+    public void goToPlayScene()
     {
         SceneManager.LoadScene("LevelSpawnerScene");
+        CInputManager.Inst.resetBools();
     }
 
     public void goTomenuScene()
     {
         SceneManager.LoadScene("mainMenu");
+        CInputManager.Inst.resetBools();
+    }
+
+    public void goToSelectScene()
+    {
+        SceneManager.LoadScene("CharacterSelect");
+        CInputManager.Inst.resetBools();
     }
 
     public void exit()
     {
         Application.Quit();
     }
+
 }

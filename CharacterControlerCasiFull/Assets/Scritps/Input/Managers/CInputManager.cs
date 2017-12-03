@@ -82,6 +82,7 @@ public class CInputManager : MonoBehaviour {
             return;
         }
         _inst = this;
+        DontDestroyOnLoad(gameObject);
         _keyboardDevice = new KeyboardDevice();
         InputManager.AttachDevice(_keyboardDevice);
         _activeDevices = InputManager.Devices.ToList();
@@ -100,5 +101,14 @@ public class CInputManager : MonoBehaviour {
 		_usedDevices.Add(c);
 		_usedDevices.Add(d);
 	}
+
+    public void resetBools()
+    {
+        _usedDevices[0] = false;
+        _usedDevices[1] = false;
+        _usedDevices[2] = false;
+        _usedDevices[3] = false;
+        _keyboardUsed = false;
+    }
 
 }
