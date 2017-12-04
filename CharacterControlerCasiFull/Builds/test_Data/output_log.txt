@@ -1,33 +1,180 @@
 Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon R9 200 Series (ID=0x6810)
-    Vendor:   ATI
-    VRAM:     2032 MB
-    Driver:   22.19.171.257
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     912 MB
+    Driver:   10.18.10.4358
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.027 seconds
-Platform assembly: C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\naiar\Desktop\Dev\Programacion\Unity\Proyectos\PruebitaDePlataformeo\Pruebita\Builds\test_Data\Managed\System.dll (this message is harmless)
-desktop: 1360x768 60Hz; virtual: 2726x768 at 0,0
+Platform assembly: C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.034 seconds
+Platform assembly: C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Naio\Desktop\Study\Programacion\Unity\Juego4Meses\Repository\FinalProject\CharacterControlerCasiFull\Builds\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.297690 ms
-Gravity: -74.99999 Jump Velocity: 30
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+UnloadTime: 2.096687 ms
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/XInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/.\XInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/XInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/libXInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/.\libXInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/libXInputInterface64
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 8ee4 -> priority: 1 
+  Thread -> id: 8ee8 -> priority: 1 
+  Thread -> id: 8eec -> priority: 1 
+  Thread -> id: 8ef0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.782502 ms
 
-Setting up 3 worker threads for Enlighten.
-  Thread -> id: 1eac -> priority: 1 
-  Thread -> id: 2250 -> priority: 1 
-  Thread -> id: 2bc0 -> priority: 1 
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3348.
+Total: 1.263657 ms (FindLiveObjects: 0.176612 ms CreateObjectMapping: 0.096217 ms MarkObjects: 0.835595 ms  DeleteObjects: 0.154803 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.661163 ms
+
+Unloading 288 unused Assets to reduce memory usage. Loaded Objects now: 7623.
+Total: 3.999656 ms (FindLiveObjects: 0.288224 ms CreateObjectMapping: 0.395133 ms MarkObjects: 1.940600 ms  DeleteObjects: 1.374841 ms)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner (1)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner (2)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner (3)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module2(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module2(Clone)/NormalPlat/ReSpawner"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module2(Clone)/NormalPlat/ReSpawner (1)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)/ReSpawner"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)/ReSpawner (1)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)/ReSpawner (2)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner (1)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner (2)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module5(Clone)/ReSpawner (3)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)/ReSpawner"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)/ReSpawner (1)"
+ 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelSpawner/Module3(Clone)/ReSpawner (2)"
+ 
+(Filename:  Line: 0)
+
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/XInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/.\XInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/XInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/libXInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/.\libXInputInterface64
+Fallback handler could not load library C:/Users/Naio/Desktop/Study/Programacion/Unity/Juego4Meses/Repository/FinalProject/CharacterControlerCasiFull/Builds/test_Data/Mono/libXInputInterface64

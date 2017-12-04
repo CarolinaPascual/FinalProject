@@ -16,7 +16,6 @@ public class PlayerSpawner : MonoBehaviour {
 
     private void spawnPlayers()
     {
-        Debug.Log(PlayerPrefs.GetInt("PlayerModel1"));
 
         for (int i = 1; i < PlayerPrefs.GetInt("PlayerAmount")+ 1; i++)
         {

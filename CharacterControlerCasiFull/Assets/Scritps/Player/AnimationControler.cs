@@ -34,8 +34,16 @@ public class AnimationControler : MonoBehaviour {
 	
 	void Update ()
     {
-        rotateModel();
-        updateAnimations();
+        if (!LevelManager.Inst.isGamePaused)
+        {
+            rotateModel();
+            updateAnimations();
+            _anim.speed = 1;
+        }
+        else
+        {
+            _anim.speed = 0;
+        }
     }
 
     private void updateAnimations()

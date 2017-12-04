@@ -112,17 +112,20 @@ public class PlayerControler : MonoBehaviour {
 
     void Update()
     {
-        stateNormal();
-        stateStuned();
-		stateSlowed();
-		statePulling();
-		stateJumpCursed();
-		stateInputCursed();
-        stateDead();
-        stateRespawning();
-        if (_controller._collisionInfo.above || _controller._collisionInfo.below)
+        if (!LevelManager.Inst.isGamePaused)
         {
-            _velocity.y = 0;
+            stateNormal();
+            stateStuned();
+            stateSlowed();
+            statePulling();
+            stateJumpCursed();
+            stateInputCursed();
+            stateDead();
+            stateRespawning();
+            if (_controller._collisionInfo.above || _controller._collisionInfo.below)
+            {
+                _velocity.y = 0;
+            }
         }
     }
 
@@ -162,7 +165,7 @@ public class PlayerControler : MonoBehaviour {
     {
 		if (_myVirtualJoystick.getAtachedDevice() != null)
 		{
-			if (_myVirtualJoystick.GetAction3Down() && !_dashed)
+			if (_myVirtualJoystick.GetAction2Down() && !_dashed)
 			{
 				if (_input.x == 0)
 				{

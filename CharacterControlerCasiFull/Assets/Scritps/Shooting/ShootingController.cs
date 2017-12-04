@@ -28,41 +28,45 @@ public class ShootingController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (_virtualJoystick.getAtachedDevice () != null) 
-		{
-			input = _virtualJoystick.GetLeftStickClamped();
-		}
-
-		if (equipedWeapon != null)
-		{
-			rotateModel();
-			disapearWeapon();
-			equipedWeapon.transform.position = _gunsBones.transform.position;
-		}
-        
-
-        if (input.x != 0)
+        if (!LevelManager.Inst.isGamePaused)
         {
-            facingDirection = (int)input.x;
-        }
 
-		if (_virtualJoystick.getAtachedDevice() != null)
-		{
-			if(_virtualJoystick.GetRightTriggerDown() || _virtualJoystick.GetRightTriggerPressed())
-			{
-				if (input == Vector2.zero)
-				{
-					input = new Vector2(facingDirection, 0);
-				}
-				if (_controler.getState() != _controler.State_Stuned && !_controler.isWallSlideing ())
-				{
-					if (equipedWeapon != null)
-					{
-						weaponScript.fire(input);
-					}
-				}
-			}
-		}
+            if (_virtualJoystick.getAtachedDevice() != null)
+            {
+                input = _virtualJoystick.GetLeftStickClamped();
+            }
+
+            if (equipedWeapon != null)
+            {
+                rotateModel();
+                disapearWeapon();
+                equipedWeapon.transform.position = _gunsBones.transform.position;
+            }
+
+
+            if (input.x != 0)
+            {
+                facingDirection = (int)input.x;
+            }
+
+            if (_virtualJoystick.getAtachedDevice() != null)
+            {
+                if (_virtualJoystick.GetRightTriggerDown() || _virtualJoystick.GetRightTriggerPressed())
+                {
+                    if (input == Vector2.zero)
+                    {
+                        input = new Vector2(facingDirection, 0);
+                    }
+                    if (_controler.getState() != _controler.State_Stuned && !_controler.isWallSlideing())
+                    {
+                        if (equipedWeapon != null)
+                        {
+                            weaponScript.fire(input);
+                        }
+                    }
+                }
+            }
+        }
 	}
 
     private void rotateModel()

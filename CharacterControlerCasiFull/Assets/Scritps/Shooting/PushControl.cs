@@ -67,7 +67,7 @@ public class PushControl : MonoBehaviour {
         {
 			if (_myVirtualJoystick.getAtachedDevice() != null)
 			{
-				if (_myVirtualJoystick.GetLeftTriggerDown())
+				if (_myVirtualJoystick.GetAction3Down())
 				{
 					pushCounter = 0;
 					return true;    

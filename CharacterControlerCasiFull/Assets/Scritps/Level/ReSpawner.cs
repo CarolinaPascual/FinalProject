@@ -32,17 +32,16 @@ public class ReSpawner : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Respawner")
+        if(other.tag == "ReSpawn")
         {
             placesToSpawn.Add(other.gameObject);
-            Debug.Log("Add");
         }
         
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Respawner")
+        if (other.tag == "ReSpawn")
         {
             placesToSpawn.Remove(other.gameObject);
             Debug.Log("Remove");

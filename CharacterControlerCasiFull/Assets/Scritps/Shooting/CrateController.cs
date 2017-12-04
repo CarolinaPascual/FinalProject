@@ -31,9 +31,12 @@ public class CrateController : MonoBehaviour {
 
 	void Update () 
 	{
-		checkOpenCrate ();
-		moveModel ();
-        spawnWeaponCheck();
+        if (!LevelManager.Inst.isGamePaused)
+        {
+            checkOpenCrate();
+            moveModel();
+            spawnWeaponCheck();
+        }
 	}
 
     private void spawnWeaponCheck()

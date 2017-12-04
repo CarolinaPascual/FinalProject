@@ -16,6 +16,11 @@ public class LevelManager : MonoBehaviour {
     public Text winner;
     public GameObject playAgainBtn, exitBtn,emptyUI;
 
+    public bool isGamePaused;
+    public GameObject pauseMenu;
+    public GameObject continueButton;
+    public GameObject exitButton;
+
     #region Singleton stuff
     private static LevelManager _inst;
     public static LevelManager Inst
@@ -50,9 +55,38 @@ public class LevelManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!isGamePaused)
+            {
+                isGamePaused = true;
+                pauseMenu.SetActive(true);
+                continueButton.SetActive(true);
+                exitButton.SetActive(true);
+                return;
+            }
+            else if (isGamePaused)
+            {
+                isGamePaused = false;
+                pauseMenu.SetActive(false);
+                continueButton.SetActive(false);
+                exitButton.SetActive(false);
+                return;
+            }
+            return;
+        }
 	}
+
+    public void unPause()
+    {
+        isGamePaused = false;
+        pauseMenu.SetActive(false);
+        continueButton.SetActive(false);
+        exitButton.SetActive(false);
+    }
+
 
     public void addToList(PlayerControler aPlayer)
     {

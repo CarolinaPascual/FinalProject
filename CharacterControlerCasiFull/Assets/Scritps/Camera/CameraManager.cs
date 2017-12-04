@@ -18,10 +18,13 @@ public class CameraManager : MonoBehaviour {
 	
 	void Update ()
     {
-        move();
-        if(transform.position.y>= endY)
+        if (!LevelManager.Inst.isGamePaused)
         {
-            _scrolling = false;
+            move();
+            if (transform.position.y >= endY)
+            {
+                _scrolling = false;
+            }
         }
 	}
 

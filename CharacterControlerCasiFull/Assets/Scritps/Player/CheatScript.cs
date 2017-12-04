@@ -30,52 +30,53 @@ public class CheatScript : MonoBehaviour {
 
 	void Update () 
 	{
-		if (_stunPlayer) 
-		{
-			_controler.setState (_controler.State_Stuned, 60);
-			_stunPlayer = false;
-		}
-		if (_slowPlayer) 
-		{
-			_controler.setState (_controler.State_Slowed, 60);
-			_slowPlayer = false;
-		}
-		if (_inputCursePlayer) 
-		{
-			_controler.setState (_controler.State_InputCursed, 60);
-			_inputCursePlayer = false;
-		}
-		if (_jumpCursePlayer) 
-		{
-			_controler.setState (_controler.State_JumpCursed, 60);
-			_jumpCursePlayer = false;
-		}
-		if (_normalStatePlayer) 
-		{
-			_controler.setState (_controler.State_Normal);
-			_normalStatePlayer = false;
-		}
-		if (_clearGun)
-		{
-			_gunsControler.clearWeapoon();
-			_clearGun = false;
-		}
-		if (_giveStungun)
-		{
-			_gunsControler.equipWeapon (_stunGun);
-			_giveStungun = false;
-		}
-		if (_giveSlowgun)
-		{
-			_gunsControler.equipWeapon (_slowGun);
-			_giveSlowgun = false;
-		}
-		if (_givePullgun)
-		{
-			_gunsControler.equipWeapon (_pullGun);
-			_givePullgun = false;
-		}
-		
-
-	}
+        if (!LevelManager.Inst.isGamePaused)
+        {
+            if (_stunPlayer)
+            {
+                _controler.setState(_controler.State_Stuned, 60);
+                _stunPlayer = false;
+            }
+            if (_slowPlayer)
+            {
+                _controler.setState(_controler.State_Slowed, 60);
+                _slowPlayer = false;
+            }
+            if (_inputCursePlayer)
+            {
+                _controler.setState(_controler.State_InputCursed, 60);
+                _inputCursePlayer = false;
+            }
+            if (_jumpCursePlayer)
+            {
+                _controler.setState(_controler.State_JumpCursed, 60);
+                _jumpCursePlayer = false;
+            }
+            if (_normalStatePlayer)
+            {
+                _controler.setState(_controler.State_Normal);
+                _normalStatePlayer = false;
+            }
+            if (_clearGun)
+            {
+                _gunsControler.clearWeapoon();
+                _clearGun = false;
+            }
+            if (_giveStungun)
+            {
+                _gunsControler.equipWeapon(_stunGun);
+                _giveStungun = false;
+            }
+            if (_giveSlowgun)
+            {
+                _gunsControler.equipWeapon(_slowGun);
+                _giveSlowgun = false;
+            }
+            if (_givePullgun)
+            {
+                _gunsControler.equipWeapon(_pullGun);
+                _givePullgun = false;
+            }
+        }
+    }
 }

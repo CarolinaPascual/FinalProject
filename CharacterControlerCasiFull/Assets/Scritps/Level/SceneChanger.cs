@@ -15,7 +15,6 @@ public class SceneChanger : MonoBehaviour {
 
     public void goToPlayScene()
     {
-        Debug.Log("PLAY");
         SceneManager.LoadScene("LevelSpawnerScene");
         CInputManager.Inst.resetBools();
     }
@@ -30,6 +29,16 @@ public class SceneChanger : MonoBehaviour {
     {
         SceneManager.LoadScene("CharacterSelect");
         CInputManager.Inst.resetBools();
+    }
+
+    public void goToCreditsScene()
+    {
+        SceneManager.LoadScene("CreditsScene");
+    }
+
+    public void goToInstructionsScene()
+    {
+        SceneManager.LoadScene("InstructionsScene");
     }
 
     public void exit()
