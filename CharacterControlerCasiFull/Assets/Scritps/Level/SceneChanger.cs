@@ -10,12 +10,12 @@ public class SceneChanger : MonoBehaviour {
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
         inst = this;
     }
 
     public void goToPlayScene()
     {
+        Debug.Log("PLAY");
         SceneManager.LoadScene("LevelSpawnerScene");
         CInputManager.Inst.resetBools();
     }

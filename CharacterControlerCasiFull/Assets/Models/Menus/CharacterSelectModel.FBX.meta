@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 07eadac9504d74b42810e4b9a1e4345c
-timeCreated: 1512257001
+guid: bf24423dd045e4946a3d96a905a91c54
+timeCreated: 1512343058
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -26,23 +26,27 @@ ModelImporter:
     100036: Line005
     100038: Loft001
     100040: Loft003
-    100042: Loft004
-    100044: PhotometricLight001
-    100046: PhotometricLight002
-    100048: PhotometricLight003
-    100050: PhotometricLight004
-    100052: PhysCamera001
-    100054: PhysCamera001.Target
-    100056: PhysCamera002
-    100058: PhysCamera002.Target
-    100060: Text001
-    100062: Text002
-    100064: Text003
-    100066: Text004
-    100068: Text005
-    100070: Tube001
-    100072: Tube002
-    100074: Tube003
+    100042: PhotometricLight001
+    100044: PhotometricLight002
+    100046: PhotometricLight003
+    100048: PhotometricLight004
+    100050: PhysCamera001
+    100052: PhysCamera001.Target
+    100054: PhysCamera002
+    100056: PhysCamera002.Target
+    100058: Plane001
+    100060: Plane002
+    100062: Plane003
+    100064: Plane004
+    100066: Rectangle001
+    100068: Text001
+    100070: Text002
+    100072: Text003
+    100074: Text004
+    100076: Text005
+    100078: Tube001
+    100080: Tube002
+    100082: Tube003
     400000: Box015
     400002: Box016
     400004: Box017
@@ -64,23 +68,27 @@ ModelImporter:
     400036: Line005
     400038: Loft001
     400040: Loft003
-    400042: Loft004
-    400044: PhotometricLight001
-    400046: PhotometricLight002
-    400048: PhotometricLight003
-    400050: PhotometricLight004
-    400052: PhysCamera001
-    400054: PhysCamera001.Target
-    400056: PhysCamera002
-    400058: PhysCamera002.Target
-    400060: Text001
-    400062: Text002
-    400064: Text003
-    400066: Text004
-    400068: Text005
-    400070: Tube001
-    400072: Tube002
-    400074: Tube003
+    400042: PhotometricLight001
+    400044: PhotometricLight002
+    400046: PhotometricLight003
+    400048: PhotometricLight004
+    400050: PhysCamera001
+    400052: PhysCamera001.Target
+    400054: PhysCamera002
+    400056: PhysCamera002.Target
+    400058: Plane001
+    400060: Plane002
+    400062: Plane003
+    400064: Plane004
+    400066: Rectangle001
+    400068: Text001
+    400070: Text002
+    400072: Text003
+    400074: Text004
+    400076: Text005
+    400078: Tube001
+    400080: Tube002
+    400082: Tube003
     2300000: Box015
     2300002: Box016
     2300004: Box017
@@ -95,10 +103,13 @@ ModelImporter:
     2300022: Cylinder005
     2300024: Loft001
     2300026: Loft003
-    2300028: Loft004
-    2300030: Tube001
-    2300032: Tube002
-    2300034: Tube003
+    2300028: Plane001
+    2300030: Plane002
+    2300032: Plane003
+    2300034: Plane004
+    2300036: Tube001
+    2300038: Tube002
+    2300040: Tube003
     3300000: Box015
     3300002: Box016
     3300004: Box017
@@ -113,28 +124,34 @@ ModelImporter:
     3300022: Cylinder005
     3300024: Loft001
     3300026: Loft003
-    3300028: Loft004
-    3300030: Tube001
-    3300032: Tube002
-    3300034: Tube003
+    3300028: Plane001
+    3300030: Plane002
+    3300032: Plane003
+    3300034: Plane004
+    3300036: Tube001
+    3300038: Tube002
+    3300040: Tube003
     4300000: Loft001
     4300002: Loft003
-    4300004: Loft004
-    4300006: Cylinder001
-    4300008: Cylinder002
-    4300010: Cylinder003
-    4300012: Cylinder004
-    4300014: Cylinder005
-    4300016: Box015
-    4300018: Box016
-    4300020: Box017
-    4300022: Box018
-    4300024: Box019
-    4300026: Box020
-    4300028: Box021
-    4300030: Tube003
-    4300032: Tube001
-    4300034: Tube002
+    4300004: Cylinder001
+    4300006: Cylinder002
+    4300008: Cylinder003
+    4300010: Cylinder004
+    4300012: Cylinder005
+    4300014: Box015
+    4300016: Box016
+    4300018: Box017
+    4300020: Box018
+    4300022: Box019
+    4300024: Box020
+    4300026: Box021
+    4300028: Tube003
+    4300030: Tube001
+    4300032: Tube002
+    4300034: Plane001
+    4300036: Plane002
+    4300038: Plane003
+    4300040: Plane004
     7400000: CharacterSelectSpin
     7400002: CharacterSelectPlay
     7400004: CharacterSelectMenu
@@ -229,8 +246,6 @@ ModelImporter:
         weight: 1
       - path: Loft003
         weight: 1
-      - path: Loft004
-        weight: 1
       - path: PhotometricLight001
         weight: 1
       - path: PhotometricLight002
@@ -246,6 +261,16 @@ ModelImporter:
       - path: PhysCamera002
         weight: 1
       - path: PhysCamera002.Target
+        weight: 1
+      - path: Plane001
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Rectangle001
         weight: 1
       - path: Text001
         weight: 1
@@ -333,8 +358,6 @@ ModelImporter:
         weight: 1
       - path: Loft003
         weight: 1
-      - path: Loft004
-        weight: 1
       - path: PhotometricLight001
         weight: 1
       - path: PhotometricLight002
@@ -350,6 +373,16 @@ ModelImporter:
       - path: PhysCamera002
         weight: 1
       - path: PhysCamera002.Target
+        weight: 1
+      - path: Plane001
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Rectangle001
         weight: 1
       - path: Text001
         weight: 1
@@ -437,8 +470,6 @@ ModelImporter:
         weight: 1
       - path: Loft003
         weight: 1
-      - path: Loft004
-        weight: 1
       - path: PhotometricLight001
         weight: 1
       - path: PhotometricLight002
@@ -454,6 +485,16 @@ ModelImporter:
       - path: PhysCamera002
         weight: 1
       - path: PhysCamera002.Target
+        weight: 1
+      - path: Plane001
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: Plane004
+        weight: 1
+      - path: Rectangle001
         weight: 1
       - path: Text001
         weight: 1

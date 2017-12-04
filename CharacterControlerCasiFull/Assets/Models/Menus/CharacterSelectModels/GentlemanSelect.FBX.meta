@@ -1,0 +1,798 @@
+fileFormatVersion: 2
+guid: 445792717c39bcc48b75772073493195
+timeCreated: 1512345255
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone008
+    100002: Box001bbbb001
+    100004: Box003
+    100006: Box004
+    100008: Box005
+    100010: Box006
+    100012: Brazos
+    100014: Circle001
+    100016: Circle002
+    100018: Circle003
+    100020: Circle004
+    100022: Circle005
+    100024: Circle006
+    100026: Circle007
+    100028: Circle008
+    100030: Circle009
+    100032: Circle010
+    100034: Circle011
+    100036: Circle012
+    100038: Cylinder004
+    100040: Cylinder005
+    100042: Cylinder006
+    100044: Cylinder007
+    100046: Cylinder008
+    100048: Cylinder009
+    100050: Cylinder010
+    100052: Cylinder011
+    100054: //RootNode
+    100056: Goggles001
+    100058: Group001
+    100060: Hueso Anular Der A
+    100062: Hueso Anular Der B
+    100064: Hueso Anular Der C
+    100066: Hueso Anular Izq A
+    100068: Hueso Anular Izq B
+    100070: Hueso Anular Izq C
+    100072: Hueso Brazo Der A
+    100074: Hueso Brazo Der B
+    100076: Hueso Brazo Iza A
+    100078: Hueso Brazo Iza B
+    100080: Hueso Columna A
+    100082: Hueso Columna B
+    100084: Hueso Columna C
+    100086: Hueso Columna D
+    100088: Hueso Columna E
+    100090: Hueso Columna F
+    100092: Hueso Columna G
+    100094: Hueso Indice Der A
+    100096: Hueso Indice Der B
+    100098: Hueso Indice Der C
+    100100: Hueso Indice Izq A
+    100102: Hueso Indice Izq B
+    100104: Hueso Indice Izq C
+    100106: Hueso Mano Der
+    100108: Hueso Mano Izq
+    100110: Hueso Mayor Der A
+    100112: Hueso Mayor Der B
+    100114: Hueso Mayor Der C
+    100116: Hueso Mayor Izq A
+    100118: Hueso Mayor Izq B
+    100120: Hueso Mayor Izq C
+    100122: Hueso Menique Der A
+    100124: Hueso Menique Der B
+    100126: Hueso Menique Der C
+    100128: Hueso Menique Izq A
+    100130: Hueso Menique Izq B
+    100132: Hueso Menique Izq C
+    100134: Hueso Pulgar Der A
+    100136: Hueso Pulgar Der B
+    100138: Hueso Pulgar Izq A
+    100140: Hueso Pulgar Izq B
+    100142: Hueso Sombrero A
+    100144: Hueso Sombrero B
+    100146: IK Chain001
+    100148: IK Chain002
+    100150: IK Chain003
+    100152: IK Chain004
+    100154: IK Chain005
+    100156: IK Chain006
+    100158: IK Chain007
+    100160: IK Chain008
+    100162: IK Chain009
+    100164: Line001
+    100166: Object004
+    100168: Object011
+    100170: Pie Der A
+    100172: Pie Der B
+    100174: Pie Izq A
+    100176: Pie Izq B
+    100178: Pierna Der A
+    100180: Pierna Der B
+    100182: Pierna Izq A
+    100184: Pierna Izq B
+    100186: Plane003
+    100188: Point001
+    100190: Point002
+    100192: Point003
+    100194: Point004
+    100196: Point005
+    100198: Point006
+    100200: Point007
+    100202: Point008
+    100204: Point009
+    100206: Point010
+    100208: Point011
+    100210: Point012
+    100212: Point013
+    100214: Point014
+    100216: Point015
+    100218: Point016
+    100220: Point017
+    100222: Point018
+    100224: Point019
+    100226: Point020
+    100228: Point021
+    100230: Point022
+    100232: Point023
+    100234: Point025
+    100236: Point026
+    100238: Point027
+    100240: Point028
+    100242: Point029
+    100244: Rectangle001
+    100246: Rectangle002
+    100248: Rectangle003
+    100250: Rectangle004
+    100252: Rectangle005
+    100254: Rectangle006
+    100256: Sphere002
+    100258: Sphere004
+    100260: Sphere005
+    100262: Torus001
+    100264: Torus002
+    100266: Torus003
+    100268: Torus004
+    100270: Tube001
+    100272: Tube002
+    400000: Bone008
+    400002: Box001bbbb001
+    400004: Box003
+    400006: Box004
+    400008: Box005
+    400010: Box006
+    400012: Brazos
+    400014: Circle001
+    400016: Circle002
+    400018: Circle003
+    400020: Circle004
+    400022: Circle005
+    400024: Circle006
+    400026: Circle007
+    400028: Circle008
+    400030: Circle009
+    400032: Circle010
+    400034: Circle011
+    400036: Circle012
+    400038: Cylinder004
+    400040: Cylinder005
+    400042: Cylinder006
+    400044: Cylinder007
+    400046: Cylinder008
+    400048: Cylinder009
+    400050: Cylinder010
+    400052: Cylinder011
+    400054: //RootNode
+    400056: Goggles001
+    400058: Group001
+    400060: Hueso Anular Der A
+    400062: Hueso Anular Der B
+    400064: Hueso Anular Der C
+    400066: Hueso Anular Izq A
+    400068: Hueso Anular Izq B
+    400070: Hueso Anular Izq C
+    400072: Hueso Brazo Der A
+    400074: Hueso Brazo Der B
+    400076: Hueso Brazo Iza A
+    400078: Hueso Brazo Iza B
+    400080: Hueso Columna A
+    400082: Hueso Columna B
+    400084: Hueso Columna C
+    400086: Hueso Columna D
+    400088: Hueso Columna E
+    400090: Hueso Columna F
+    400092: Hueso Columna G
+    400094: Hueso Indice Der A
+    400096: Hueso Indice Der B
+    400098: Hueso Indice Der C
+    400100: Hueso Indice Izq A
+    400102: Hueso Indice Izq B
+    400104: Hueso Indice Izq C
+    400106: Hueso Mano Der
+    400108: Hueso Mano Izq
+    400110: Hueso Mayor Der A
+    400112: Hueso Mayor Der B
+    400114: Hueso Mayor Der C
+    400116: Hueso Mayor Izq A
+    400118: Hueso Mayor Izq B
+    400120: Hueso Mayor Izq C
+    400122: Hueso Menique Der A
+    400124: Hueso Menique Der B
+    400126: Hueso Menique Der C
+    400128: Hueso Menique Izq A
+    400130: Hueso Menique Izq B
+    400132: Hueso Menique Izq C
+    400134: Hueso Pulgar Der A
+    400136: Hueso Pulgar Der B
+    400138: Hueso Pulgar Izq A
+    400140: Hueso Pulgar Izq B
+    400142: Hueso Sombrero A
+    400144: Hueso Sombrero B
+    400146: IK Chain001
+    400148: IK Chain002
+    400150: IK Chain003
+    400152: IK Chain004
+    400154: IK Chain005
+    400156: IK Chain006
+    400158: IK Chain007
+    400160: IK Chain008
+    400162: IK Chain009
+    400164: Line001
+    400166: Object004
+    400168: Object011
+    400170: Pie Der A
+    400172: Pie Der B
+    400174: Pie Izq A
+    400176: Pie Izq B
+    400178: Pierna Der A
+    400180: Pierna Der B
+    400182: Pierna Izq A
+    400184: Pierna Izq B
+    400186: Plane003
+    400188: Point001
+    400190: Point002
+    400192: Point003
+    400194: Point004
+    400196: Point005
+    400198: Point006
+    400200: Point007
+    400202: Point008
+    400204: Point009
+    400206: Point010
+    400208: Point011
+    400210: Point012
+    400212: Point013
+    400214: Point014
+    400216: Point015
+    400218: Point016
+    400220: Point017
+    400222: Point018
+    400224: Point019
+    400226: Point020
+    400228: Point021
+    400230: Point022
+    400232: Point023
+    400234: Point025
+    400236: Point026
+    400238: Point027
+    400240: Point028
+    400242: Point029
+    400244: Rectangle001
+    400246: Rectangle002
+    400248: Rectangle003
+    400250: Rectangle004
+    400252: Rectangle005
+    400254: Rectangle006
+    400256: Sphere002
+    400258: Sphere004
+    400260: Sphere005
+    400262: Torus001
+    400264: Torus002
+    400266: Torus003
+    400268: Torus004
+    400270: Tube001
+    400272: Tube002
+    2300000: Box004
+    2300002: Box005
+    2300004: Box006
+    2300006: Cylinder006
+    2300008: Cylinder007
+    2300010: Cylinder008
+    2300012: Cylinder009
+    2300014: Cylinder010
+    2300016: Cylinder011
+    2300018: Object011
+    2300020: Sphere002
+    2300022: Sphere004
+    2300024: Sphere005
+    2300026: Torus001
+    2300028: Torus002
+    2300030: Torus003
+    2300032: Torus004
+    2300034: Tube001
+    2300036: Tube002
+    3300000: Box004
+    3300002: Box005
+    3300004: Box006
+    3300006: Cylinder006
+    3300008: Cylinder007
+    3300010: Cylinder008
+    3300012: Cylinder009
+    3300014: Cylinder010
+    3300016: Cylinder011
+    3300018: Object011
+    3300020: Sphere002
+    3300022: Sphere004
+    3300024: Sphere005
+    3300026: Torus001
+    3300028: Torus002
+    3300030: Torus003
+    3300032: Torus004
+    3300034: Tube001
+    3300036: Tube002
+    4300000: Box001bbbb001
+    4300002: Cylinder005
+    4300004: Plane003
+    4300006: Box003
+    4300008: Brazos
+    4300010: Object004
+    4300012: Cylinder011
+    4300014: Cylinder010
+    4300016: Sphere002
+    4300018: Sphere005
+    4300020: Object011
+    4300022: Tube001
+    4300024: Cylinder006
+    4300026: Box006
+    4300028: Tube002
+    4300030: Torus001
+    4300032: Torus002
+    4300034: Cylinder007
+    4300036: Torus003
+    4300038: Cylinder008
+    4300040: Torus004
+    4300042: Cylinder009
+    4300044: Box005
+    4300046: Sphere004
+    4300048: Box004
+    4300050: Cylinder004
+    7400000: GentlemanSelect
+    9500000: //RootNode
+    13700000: Box001bbbb001
+    13700002: Box003
+    13700004: Brazos
+    13700006: Cylinder004
+    13700008: Cylinder005
+    13700010: Object004
+    13700012: Plane003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GentlemanSelect
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001bbbb001
+        weight: 1
+      - path: Box003
+        weight: 1
+      - path: Brazos
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Point002
+        weight: 1
+      - path: Circle001/Point002/Point007
+        weight: 1
+      - path: Circle001/Point002/Point007/Point009
+        weight: 1
+      - path: Circle001/Point002/Point007/Point009/Point003
+        weight: 1
+      - path: Circle001/Point002/Point007/Point009/Point003/Point020
+        weight: 1
+      - path: Circle001/Point002/Point019
+        weight: 1
+      - path: Circle002
+        weight: 1
+      - path: Circle002/Point001
+        weight: 1
+      - path: Circle002/Point001/Point018
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/Circle004
+        weight: 1
+      - path: Circle003/Circle004/Bone008
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Cylinder010
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Cylinder011
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Box006
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Cylinder006
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Cylinder007
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Goggles001
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Goggles001/Cylinder008
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Goggles001/Cylinder009
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Goggles001/Torus004
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Hueso Sombrero B
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Torus001
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Torus002
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Torus003
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Tube001
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Hueso Sombrero A/Tube002
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Object011
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Sphere002
+        weight: 1
+      - path: Circle003/Circle004/Bone008/Sphere005
+        weight: 1
+      - path: Circle003/Point005
+        weight: 1
+      - path: Circle003/Point005/Point006
+        weight: 1
+      - path: Circle003/Point005/Point006/Point008
+        weight: 1
+      - path: Circle003/Point005/Point006/Point008/Point004
+        weight: 1
+      - path: Circle003/Point005/Point006/Point008/Point004/Point021
+        weight: 1
+      - path: Circle003/Point005/Point022
+        weight: 1
+      - path: Circle005
+        weight: 1
+      - path: Circle005/IK Chain002
+        weight: 1
+      - path: Circle006
+        weight: 1
+      - path: Circle006/IK Chain003
+        weight: 1
+      - path: Cylinder004
+        weight: 1
+      - path: Cylinder005
+        weight: 1
+      - path: Group001
+        weight: 1
+      - path: Hueso Columna A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point023
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Anular Der A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Anular Der A/Hueso Anular Der B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Anular Der A/Hueso Anular Der B/Hueso Anular Der C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Indice Der A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Indice Der A/Hueso Indice Der B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Indice Der A/Hueso Indice Der B/Hueso Indice Der C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Mayor Der A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Mayor Der A/Hueso Mayor Der B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Mayor Der A/Hueso Mayor Der B/Hueso Mayor Der C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Menique Der A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Menique Der A/Hueso Menique Der B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Menique Der A/Hueso Menique Der B/Hueso Menique Der C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Pulgar Der A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Der A/Hueso Brazo Der B/Point025/Hueso Mano Der/Hueso
+          Pulgar Der A/Hueso Pulgar Der B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point026
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Anular Izq A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Anular Izq A/Hueso Anular Izq B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Anular Izq A/Hueso Anular Izq B/Hueso Anular Izq C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Indice Izq A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Indice Izq A/Hueso Indice Izq B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Indice Izq A/Hueso Indice Izq B/Hueso Indice Izq C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Mayor Izq A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Mayor Izq A/Hueso Mayor Izq B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Mayor Izq A/Hueso Mayor Izq B/Hueso Mayor Izq C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Menique Izq A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Menique Izq A/Hueso Menique Izq B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Menique Izq A/Hueso Menique Izq B/Hueso Menique Izq C
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Pulgar Izq A
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Brazo Iza A/Hueso Brazo Iza B/Point027/Hueso Mano Izq/Hueso
+          Pulgar Izq A/Hueso Pulgar Izq B
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Columna F
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Columna F/Box004
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Columna F/Box005
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Columna F/Hueso Columna G
+        weight: 1
+      - path: Hueso Columna A/Hueso Columna B/Hueso Columna C/Hueso Columna D/Hueso
+          Columna E/Hueso Columna F/Sphere004
+        weight: 1
+      - path: Hueso Columna A/Pierna Der A
+        weight: 1
+      - path: Hueso Columna A/Pierna Der A/Pierna Der B
+        weight: 1
+      - path: Hueso Columna A/Pierna Der A/Pierna Der B/Pie Der A
+        weight: 1
+      - path: Hueso Columna A/Pierna Der A/Pierna Der B/Pie Der A/Pie Der B
+        weight: 1
+      - path: Hueso Columna A/Pierna Der A/Pierna Der B/Pie Der A/Pie Der B/Point028
+        weight: 1
+      - path: Hueso Columna A/Pierna Izq A
+        weight: 1
+      - path: Hueso Columna A/Pierna Izq A/Pierna Izq B
+        weight: 1
+      - path: Hueso Columna A/Pierna Izq A/Pierna Izq B/Pie Izq A
+        weight: 1
+      - path: Hueso Columna A/Pierna Izq A/Pierna Izq B/Pie Izq A/Pie Izq B
+        weight: 1
+      - path: Hueso Columna A/Pierna Izq A/Pierna Izq B/Pie Izq A/Pie Izq B/Point029
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: Point010
+        weight: 1
+      - path: Point011
+        weight: 1
+      - path: Point012
+        weight: 1
+      - path: Point013
+        weight: 1
+      - path: Point014
+        weight: 1
+      - path: Point015
+        weight: 1
+      - path: Point016
+        weight: 1
+      - path: Point017
+        weight: 1
+      - path: Rectangle001
+        weight: 1
+      - path: Rectangle002
+        weight: 1
+      - path: Rectangle003
+        weight: 1
+      - path: Rectangle003/Circle011
+        weight: 1
+      - path: Rectangle003/Circle011/Circle007
+        weight: 1
+      - path: Rectangle003/Circle011/Circle007/Circle009
+        weight: 1
+      - path: Rectangle003/Circle011/Circle007/Circle009/IK Chain004
+        weight: 1
+      - path: Rectangle003/Circle011/Circle007/IK Chain006
+        weight: 1
+      - path: Rectangle003/Circle011/IK Chain007
+        weight: 1
+      - path: Rectangle003/Rectangle005
+        weight: 1
+      - path: Rectangle004
+        weight: 1
+      - path: Rectangle004/Circle012
+        weight: 1
+      - path: Rectangle004/Circle012/Circle008
+        weight: 1
+      - path: Rectangle004/Circle012/Circle008/Circle010
+        weight: 1
+      - path: Rectangle004/Circle012/Circle008/Circle010/IK Chain005
+        weight: 1
+      - path: Rectangle004/Circle012/Circle008/IK Chain008
+        weight: 1
+      - path: Rectangle004/Circle012/IK Chain009
+        weight: 1
+      - path: Rectangle004/Rectangle006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
